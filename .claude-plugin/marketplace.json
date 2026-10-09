@@ -1,0 +1,15 @@
+{
+  "name": "jinchoice-music",
+  "description": "Claude skills for writing songs",
+  "owner": {
+    "name": "Jin Choi"
+  },
+  "plugins": [
+    {
+      "name": "music",
+      "description": "Suno song inputs (title, style, lyrics, settings) shaped for a lyric-synced animated music video",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}

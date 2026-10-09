@@ -1,0 +1,18 @@
+{
+  "name": "music",
+  "description": "Suno song inputs (title, style, lyrics, settings) shaped for a lyric-synced animated music video",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jin Choi"
+  },
+  "repository": "https://github.com/jinchoice/music",
+  "skills": "./skills/",
+  "keywords": [
+    "music",
+    "suno",
+    "lyrics",
+    "jingle",
+    "music-video",
+    "songwriting"
+  ]
+}
