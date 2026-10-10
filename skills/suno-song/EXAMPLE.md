@@ -2,7 +2,7 @@
 
 Price Point (an Amazon repricer). Pillars (the product's core benefits): more profit per item sold, visibility into future sales, better decisions about what to list and where. The landing page's every section image was a jungle prop (bushes, clouds, compass, magnifying glass, explorer) under the tagline "THRIVE in the jungle", so the jungle concept won, with a chantable anthem chorus folded in.
 
-This is the hand-off after step 4. The lyrics predate step 3's line-length ranges: most verse lines run 12–15 syllables.
+This is the hand-off after step 5. The lyrics predate the line-length rules in steps 3 and 4: most verse lines run 12–15 syllables, and the final chorus's escalation line runs 11.
 
 ## Pillar-to-line map
 
@@ -13,6 +13,20 @@ This is the hand-off after step 4. The lyrics predate step 3's line-length range
 | Better decisions | Bridge Q&A (channel, country, quantity, removal); post-chorus "I know!" chant |
 
 Escalation line: chorus 1 and 2 "watch the profit climb", final chorus "Up above the canopy the profits climb". The set climbs from mid-canopy to treetops to above the clouds.
+
+## Hooks
+
+The chorus opens and closes on a hook. A chant, a call-and-response and a riff work as second hooks around it.
+
+| Hook | Where it's sung |
+|---|---|
+| "Don't just survive, thrive!", a twist on "survive" | Lines 1 and 7 of every chorus with a "(Thrive!)" echo, and the outro's last line: 7 times |
+| "Thrive in the jungle", the title | Lines 2, 4 and 8 of every chorus, and the end of every post-chorus: 12 times |
+| "Oh-oh-oh" gang chant | The intro, which previews the hook ("Oh-oh-oh-oh, thrive!"), the end of choruses 1 and 2, and the outro |
+| "(What's it worth?) I know!" call-and-response | Every post-chorus |
+| Bright marimba riff | Named in the main style box |
+
+Chorus lines run 5–9 syllables against 12–15 in the verses, and each pre-chorus ramps into the chorus on "Now I'm climbing, climbing up!".
 
 ## Title
 

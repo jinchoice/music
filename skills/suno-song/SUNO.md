@@ -17,7 +17,7 @@ Three blocks separated by periods, descriptors within a block separated by comma
 - **Vocal**: gender, range, texture and delivery, plus "clear diction". Use audible qualities (alto, baritone, gritty, raspy, smoky, nasal, belting, chest voice), not intent words. "Powerful" or "defiant" gets the genre's stock voice, and "mature" on its own still comes back young. Two texture words are plenty.
 - **Genre**: a primary genre and one or two modifiers, at most three genre terms; bigger fusions come back muddy. An era anchor (`1994 boom bap`, `late-70s disco`) brings instrumentation, mix and vocal style in one phrase.
 - **Tempo and density**: the BPM as a number, plus a density word ("driving", "busy", "sparse"). When the box leaves them open, v6 leans slower, sparser and longer than intended.
-- **Instruments**: two or three by name (`fretless bass, Rhodes, brushed snare`). Left unnamed, Suno falls back on the genre's clichés.
+- **Instruments**: two or three by name (`fretless bass, Rhodes, brushed snare`). Left unnamed, Suno falls back on the genre's clichés. When the second hook is a riff, say so (`bright marimba riff`).
 - **Production**: one or two notes on the mix or the room (`dry close-mic vocal, punchy compressed drums, tape saturation`). "Professional" and "high quality" add nothing.
 - **Atmosphere**: an environmental sound (rain, birds, a crowd) goes in the Style Box *and* in a Lyrics Box cue; either alone is weak.
 - **Two singers**: say so here ("dual vocalists, male and female, trading verses") as well as in the section tags, or one voice sings everything.
@@ -39,7 +39,7 @@ One list serves all three style boxes unless an alternate needs its own.
 
 Suno sings everything except bracketed tags. Stage directions, production notes and instrument cues in parentheses get sung, so parentheses hold sung echoes and backing vocals only.
 
-**Section tags.** Tag every section; an untagged block is sung as a verse. `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[End]` and `[Fade Out]` are the most reliable, and `[Bridge]`, `[Break]` and `[Outro]` mostly work. `[Intro]` is unreliable: write `[Short Instrumental Intro]` or open on a sung line, which also stops a long intro burying the vocal. Name instrumental sections by instrument (`[Drum Break]`, `[Guitar Solo]`), since a bare `[Solo]` tends to noodle.
+**Section tags.** Tag every section; an untagged block is sung as a verse. `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[End]` and `[Fade Out]` are the most reliable, and `[Bridge]`, `[Break]` and `[Outro]` mostly work. `[Post-Chorus]` is less tested, though it held in [EXAMPLE.md](EXAMPLE.md). `[Intro]` is unreliable: write `[Short Instrumental Intro]` or open on a sung line, which also stops a long intro burying the vocal. Name instrumental sections by instrument (`[Drum Break]`, `[Guitar Solo]`), since a bare `[Solo]` tends to noodle.
 
 **Performance Cues.** Every section tag carries a delivery cue of a word or two: `[Verse 1 - tense]`, `[Chorus - big drums, gang echoes]`, `[Bridge - stripped back, same tempo]`. Bare tags are a common cause of flat output, because the cues are how the song's arc reaches Suno. A typical arc runs verse low and tight, pre-chorus rising, chorus open and sustained, bridge a new texture. Keep to three bracketed descriptors per section, cues included; more becomes noise.
 
@@ -113,5 +113,8 @@ First decide whether it's a prompt problem or a slider problem. The prompt decid
 | A word mispronounced | Respell it. On an otherwise good take, Replace Section with the same lyrics and only that word respelled keeps the rest of the audio. |
 | Cuts off, or rambles at the end | `[Outro]`, then `[End]`. |
 | Repeats or skips sections | Tag every section, and make verse 2 differ from verse 1. |
+| No chorus sticks | Generate more takes of the main box first: Suno writes a new melody each time. If two batches pass without one, rewrite the chorus. |
 
 **Editing a good take.** When most of a take is right, fix the section, not the song: Replace Section, or Remake in the Song Editor. Make one change per edit, and first write down what must survive it (tempo, groove, the vocal). Listen across the seam for a tempo hitch or a garbled vocal, both reported. Two or three edits or extensions per song is the limit before the vocal degrades.
+
+**Keeping a melody.** When a take has the hook but the wrong sound (vocal, instruments, mix), Cover it with Variety Off, Max Mode On and Audio Influence high (65–100), with the style box changed only where the sound was wrong. Covers made this way are reported to hold the source melody and structure. Recheck the tempo on the result.
