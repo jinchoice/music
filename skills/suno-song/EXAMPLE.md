@@ -2,7 +2,7 @@
 
 Price Point (an Amazon repricer). Pillars (the product's core benefits): more profit per item sold, visibility into future sales, better decisions about what to list and where. The landing page's every section image was a jungle prop (bushes, clouds, compass, magnifying glass, explorer) under the tagline "THRIVE in the jungle", so the jungle concept won, with a chantable anthem chorus folded in.
 
-This is the hand-off after the suno-engineer pass. The lyrics predate step 3's line-length ranges: most verse lines run 12–15 syllables.
+This is the hand-off after step 4. The lyrics predate step 3's line-length ranges: most verse lines run 12–15 syllables.
 
 ## Pillar-to-line map
 
@@ -159,8 +159,13 @@ Don't just survive... thrive.
 | Weirdness | 25 |
 | Style Influence | 70 |
 
-## Flagged by suno-engineer
+## Respellings
 
-- "Red fifty signs" is the past tense of "read", respelled so Suno doesn't sing "reed". The Verse 2 pre-chorus "read" is present tense and stays as written.
-- "F.B.A." uses periods so Suno spells it letter by letter.
-- Jungle birds appear in both the Style Box and the intro and outro cues, the plugin's rule for atmospheric sounds.
+| Suno spelling | Display spelling | Why |
+|---|---|---|
+| Red (fifty signs) | Read | Past tense of "read", respelled so Suno doesn't sing "reed". The Verse 2 pre-chorus "read" is present tense and stays as written. |
+| F.B.A. | FBA | Periods make Suno spell it letter by letter. |
+
+## Notes
+
+- Jungle birds appear in both the Style Box and the intro and outro cues, since an atmospheric sound named in only one of them is weak.

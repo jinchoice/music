@@ -5,7 +5,7 @@ How the music video is built once the user sends the chosen take and the lyrics 
 ## Pipeline
 
 1. **Beat grid.** Measure the BPM and the first-beat offset from the audio (a beat tracker such as librosa's, checked by ear against a click track). Store them as constants: `BPM`, `BEAT = 60 / BPM`, `OFF`, `DUR`. Beats fall at `OFF + n × BEAT`. A single grid only works because the tempo is locked.
-2. **Timed lyrics.** Write one `[start, end, text]` triple per line, using the lyrics exactly as sung. These drive the karaoke and set every shot's boundaries.
+2. **Timed lyrics.** Write one `[start, end, text]` triple per line, using the lyrics exactly as sung, with the hand-off's respellings turned back into their display spelling (Red → Read). These drive the karaoke and set every shot's boundaries.
 3. **Storyboard** (below), written before any painting.
 4. **Animation guide** (below), written to brief parallel subagents, one per chapter.
 5. **Paint, check, render.**

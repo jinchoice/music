@@ -8,17 +8,13 @@ Claude skills for writing songs.
 
 Turns any subject (a product, a family, an event) into copy-paste inputs for Suno: title, three style boxes, exclude styles, a tagged lyrics box and generation settings. The song is written as the first half of a lyric-synced animated music video, so it holds a steady tempo and every lyric line is a paintable shot. [VIDEO.md](skills/suno-song/VIDEO.md) covers the video phase.
 
-Steps: mine the subject, pitch five directions, write the lyrics, refine with suno-engineer, hand off.
-
-**Requires** the [bitwize-music](https://github.com/bitwize-music-studio/claude-ai-music-skills) plugin for its `suno-engineer` skill (step 4). Without it, the skill stops at draft lyrics.
+Steps: mine the subject, pitch five directions, write the lyrics, engineer the Suno inputs, hand off. [SUNO.md](skills/suno-song/SUNO.md) holds the Suno craft step 4 applies (style boxes, exclusions, tags, pronunciation, settings, fixing takes), distilled from the suno-engineer skill in [bitwize-music](https://github.com/bitwize-music-studio/claude-ai-music-skills). No other plugin is needed.
 
 ## Install
 
 As a Claude Code plugin:
 
 ```
-/plugin marketplace add bitwize-music-studio/claude-ai-music-skills
-/plugin install bitwize-music@bitwize-music
 /plugin marketplace add jinchoice/music
 /plugin install music@jinchoice-music
 ```
@@ -42,6 +38,7 @@ Or by hand: copy `skills/suno-song` into `~/.claude/skills/`.
 skills/
   suno-song/
     SKILL.md         the skill
+    SUNO.md          Suno craft, read in step 4
     EXAMPLE.md       worked example and quality bar
     VIDEO.md         video phase, read after the song is chosen
 ```
