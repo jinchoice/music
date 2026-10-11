@@ -1,7 +1,7 @@
 {
   "name": "music",
-  "description": "Suno song inputs (title, style, lyrics, settings) shaped for a lyric-synced animated music video",
-  "version": "0.3.0",
+  "description": "Suno song inputs, and the hand-painted, lyric-synced music video made from the finished song",
+  "version": "0.4.0",
   "author": {
     "name": "Jin Choi"
   },
@@ -13,6 +13,8 @@
     "lyrics",
     "jingle",
     "music-video",
-    "songwriting"
+    "songwriting",
+    "animation",
+    "karaoke"
   ]
 }

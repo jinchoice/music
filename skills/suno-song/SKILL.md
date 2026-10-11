@@ -5,7 +5,7 @@ description: Suno song inputs (title, style, lyrics, settings) for any subject t
 
 # Suno song
 
-Turn a subject (any theme, plus whatever material the user provides about it) into copy-paste inputs for Suno. The song is the first half of a lyric-synced animated music video ([VIDEO.md](VIDEO.md)): every frame is animated against a fixed beat grid, and every lyric line becomes one 1.5–4 s shot. That is why this skill insists on a steady tempo and on *paintable* lines. [SUNO.md](SUNO.md) holds the Suno craft (style boxes, exclusions, tags, pronunciation, settings, fixing takes) that step 5 applies.
+Turn a subject (any theme, plus whatever material the user provides about it) into copy-paste inputs for Suno. The song is the first half of a lyric-synced animated music video, which the painted-music-video skill makes from the finished song: every frame is animated against a fixed beat grid, and every lyric line becomes one 1.5–4 s shot. That is why this skill insists on a steady tempo and on *paintable* lines. [SUNO.md](SUNO.md) holds the Suno craft (style boxes, exclusions, tags, pronunciation, settings, fixing takes) that step 5 applies.
 
 ## Steps
 
@@ -43,7 +43,7 @@ Write the chorus before anything else, and write the rest of the song to set it 
    - The hook is the chorus's first or last line (or both), sung at least twice.
    - No chorus line runs longer than 9 syllables, the top of the verse range. Fewer words than the verses leave room for held notes, and the contrast is what makes a chorus land.
    - Rhyme the line ends with perfect rhymes. Parallel lines share a stress pattern, so they fit one melody ("I know the trail, I know the way").
-   - Carry one idea: the core promise, or the heart of the subject (an outcome claim only if the user opted in; see Claims in step 4). The verses cover the other pillars. Chorus lines don't each need their own picture, because every chorus returns to the same set in the video, with a prop that escalates each time ([VIDEO.md](VIDEO.md#storyboard)).
+   - Carry one idea: the core promise, or the heart of the subject (an outcome claim only if the user opted in; see Claims in step 4). The verses cover the other pillars. Chorus lines don't each need their own picture, because every chorus returns to the same set in the video, with a prop that escalates each time.
 3. **Add a second hook**, whichever suits the direction: a wordless vocal hook in a post-chorus ("oh-oh-oh", "na-na-na"), a chant or call-and-response, or a signature instrument riff for the style box. Something that repeats without words is easy to remember and easy to sing back.
 
 Present the top two or three choruses, each with its second hook, and recommend one. Stop here until the user picks.
@@ -112,4 +112,4 @@ Present everything as fenced code blocks, one per Suno field, in this order: Tit
 
 Among the takes that pass, the hook decides: listen through the batch once and keep the take whose chorus you're still humming. When no chorus sticks, generate more takes of the main box before changing the lyrics. When the take with the best hook fails a check, fix that take rather than starting over, since its melody is the hard part to get back ([SUNO.md § Fixing a take](SUNO.md#fixing-a-take)).
 
-Ask for two things back: the chosen take's audio (WAV, else MP3) and the lyrics exactly as sung. Those start the video phase in [VIDEO.md](VIDEO.md). If no take passes, diagnose it with [SUNO.md § Fixing a take](SUNO.md#fixing-a-take), change one thing, and send the revised fields.
+Ask for two things back: the chosen take's audio (WAV, else MP3) and the lyrics exactly as sung. Those are the two inputs the painted-music-video skill needs, so hand them to it to make the video. If no take passes, diagnose it with [SUNO.md § Fixing a take](SUNO.md#fixing-a-take), change one thing, and send the revised fields.

@@ -1,14 +1,18 @@
 # music
 
-Claude skills for writing songs.
+Claude skills for writing songs and painting their music videos.
 
 ## Skills
 
 ### suno-song
 
-Turns any subject (a product, a family, an event) into copy-paste inputs for Suno: title, three style boxes, exclude styles, a tagged lyrics box and generation settings. The song is written as the first half of a lyric-synced animated music video, so it holds a steady tempo and every lyric line is a paintable shot. [VIDEO.md](skills/suno-song/VIDEO.md) covers the video phase.
+Turns any subject (a product, a family, an event) into copy-paste inputs for Suno: title, three style boxes, exclude styles, a tagged lyrics box and generation settings. The song is written as the first half of a lyric-synced animated music video, so it holds a steady tempo and every lyric line is a paintable shot. [painted-music-video](#painted-music-video) makes the video from the finished song.
 
 Steps: mine the subject, pitch five directions, write the chorus, write the rest, engineer the Suno inputs, hand off. The chorus comes first and is built around a short, singable hook, with a second hook (a vocal hook, chant or riff) beside it. [SUNO.md](skills/suno-song/SUNO.md) holds the Suno craft step 5 applies (style boxes, exclusions, tags, pronunciation, settings, fixing takes), distilled from the suno-engineer skill in [bitwize-music](https://github.com/bitwize-music-studio/claude-ai-music-skills). No other plugin is needed.
+
+### painted-music-video
+
+Turns a finished song (an MP3 plus the lyrics as sung) into a hand-painted, watercolour-and-ink music video with a story, characters, word-by-word karaoke and lip-sync, rendered to an MP4. Steps: analyse the song, find the story, storyboard, cast sheet, build one chapter per song section, review, render. Needs node, ffmpeg, python3 and Chrome. It never makes or edits music, so it pairs with suno-song.
 
 ## Install
 
@@ -19,7 +23,7 @@ As a Claude Code plugin:
 /plugin install music@jinchoice-music
 ```
 
-The skill is then available as `music:suno-song`.
+The skills are then available as `music:suno-song` and `music:painted-music-video`.
 
 With the [skills CLI](https://skills.sh):
 
@@ -27,7 +31,7 @@ With the [skills CLI](https://skills.sh):
 npx skills add jinchoice/music
 ```
 
-Or by hand: copy `skills/suno-song` into `~/.claude/skills/`.
+Or by hand: copy `skills/suno-song` and `skills/painted-music-video` into `~/.claude/skills/`.
 
 ## Layout
 
@@ -40,5 +44,9 @@ skills/
     SKILL.md         the skill
     SUNO.md          Suno craft, read in step 5
     EXAMPLE.md       worked example and quality bar
-    VIDEO.md         video phase, read after the song is chosen
+  painted-music-video/
+    SKILL.md         the skill
+    references/      storyboard, craft, engine, review, audio and re-cut guides
+    scripts/         project setup, song analysis, lyric alignment, re-cut
+    assets/engine/   p5.js + p5.brush renderer, copied into each video project
 ```
