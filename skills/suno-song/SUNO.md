@@ -30,8 +30,8 @@ Every descriptor should add distinct information. Around ten distinct descriptor
 The field shifts the odds against an element. It is not a hard filter: a Style Box that strongly implies the element still wins, so lean the box away from it too.
 
 - **Bare elements**: `autotune`, not `no autotune`. The field is the negation.
-- **Two to four items.** More dilutes each one.
-- **What to list**: `tempo changes` (always, for the video); group vocals Suno adds unasked (`choir`, `gang vocals`, `backing vocals`), unless the song wants them; and whatever the genre tends to drag in (`autotune` on boom bap, `drums, electric instruments` on acoustic folk, `EDM drops` on pop).
+- **At most four items**, and none when nothing needs keeping out. More dilutes each one.
+- **What to list**: group vocals Suno adds unasked (`choir`, `gang vocals`, `backing vocals`), unless the song wants them; and whatever the genre tends to drag in (`autotune` on boom bap, `drums, electric instruments` on acoustic folk, `EDM drops` on pop).
 
 One list serves all three style boxes unless an alternate needs its own.
 
@@ -41,7 +41,7 @@ Suno sings everything except bracketed tags. Stage directions, production notes 
 
 **Section tags.** Tag every section; an untagged block is sung as a verse. `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[End]` and `[Fade Out]` are the most reliable, and `[Bridge]`, `[Break]` and `[Outro]` mostly work. `[Post-Chorus]` is less tested, though it held in [EXAMPLE.md](EXAMPLE.md). `[Intro]` is unreliable: write `[Short Instrumental Intro]` or open on a sung line, which also stops a long intro burying the vocal. Name instrumental sections by instrument (`[Drum Break]`, `[Guitar Solo]`), since a bare `[Solo]` tends to noodle.
 
-**Performance Cues.** Every section tag carries a delivery cue of a word or two: `[Verse 1 - tense]`, `[Chorus - big drums, gang echoes]`, `[Bridge - stripped back, same tempo]`. Bare tags are a common cause of flat output, because the cues are how the song's arc reaches Suno. A typical arc runs verse low and tight, pre-chorus rising, chorus open and sustained, bridge a new texture. Keep to three bracketed descriptors per section, cues included; more becomes noise.
+**Performance Cues.** Every section tag carries a delivery cue of a word or two: `[Verse 1 - tense]`, `[Chorus - big drums, gang echoes]`, `[Bridge - stripped back]`. Bare tags are a common cause of flat output, because the cues are how the song's arc reaches Suno. A typical arc runs verse low and tight, pre-chorus rising, chorus open and sustained, bridge a new texture. Keep to three bracketed descriptors per section, cues included; more becomes noise.
 
 **Phrasing on the page.** A line break is a breath; an ellipsis holds or pauses; a comma mid-line barely registers. A stretched vowel (`lo-ove`, `ohhh`) gives a sustained note. ALL CAPS reads as shouting, unpredictably, so use it on one line at most.
 
@@ -70,7 +70,7 @@ All under More Options in Advanced Mode.
 | Max Mode | On | Suno recommends it over ~2:00 for consistency through the song (20 credits instead of 10); without it, mixes are reported to go muffled after ~2:30. |
 | Vocal Gender | From each box's vocal | Steadier than the descriptor alone. |
 | Duration | Auto | Custom hard-cuts at the value and rushes lyrics that don't fit. The section budget sets the length. |
-| Weirdness | Low end of the genre's range | High Weirdness brings tempo shifts and structure drift; above ~60 it is an experimental tool. |
+| Weirdness | Low end of the genre's range | Low Weirdness makes predictable, hooky choices. High brings surprises, and with them tempo shifts and structure drift; above ~60 it is an experimental tool. |
 | Style Influence | The genre's range | The default 50 holds the box loosely; raise it before blaming the prompt. |
 
 Starting ranges, on Suno's 0–100 scale:
@@ -86,7 +86,7 @@ Starting ranges, on Suno's 0–100 scale:
 | Electronic, EDM | 30–55 | 45–65 |
 | Jazz | 40–65 | 40–60 |
 
-**Genres v6 handles poorly.** v6 is reported weak on grunge, metal, alt-country and synth-pop, and rock or vintage-soul vocals drift to a generic timbre. A sharp vocal texture descriptor helps. v6-wild has more character there, but its length is unpredictable and polishing a wild take by covering it on v6 is unproven, so it suits a sketch, not a take for the video.
+**Genres v6 handles poorly.** v6 is reported weak on grunge, metal, alt-country and synth-pop, and rock or vintage-soul vocals drift to a generic timbre. A sharp vocal texture descriptor helps. v6-wild has more character there, but its length is unpredictable and polishing a wild take by covering it on v6 is unproven, so it suits a sketch, not a finished take.
 
 **With a Suno Voice** (the user's own cloned voice): drop gender and register from the style boxes, leave Vocal Gender unset, keep Max Mode On and set Audio Influence to 70–85.
 
@@ -101,7 +101,6 @@ First decide whether it's a prompt problem or a slider problem. The prompt decid
 
 | Symptom | Fix |
 |---|---|
-| Tempo drifts or slows | Restate the BPM in the box; check `tempo changes` is excluded and every stripped-back cue says "same tempo"; lower Weirdness. |
 | Vocal buried or late | Vocal first in the box, with "clear, prominent lead vocal"; shorten the intro or open on a sung line. |
 | Vocal generic | Swap intent words for range and texture (`mezzo-soprano, raw chest voice, rasp on the belts`). If it persists, put the vocal descriptor inside each section tag (`[Chorus: gritty female belt]`), and check the genre word isn't pulling toward a stock pop voice. |
 | Vocal too young | A range (`alto`, `baritone`) and older textures (`smoky`, `weathered`); drop `breathy`, `whispered` and `delicate`; exclude `youthful vocals`. |
@@ -117,4 +116,4 @@ First decide whether it's a prompt problem or a slider problem. The prompt decid
 
 **Editing a good take.** When most of a take is right, fix the section, not the song: Replace Section, or Remake in the Song Editor. Make one change per edit, and first write down what must survive it (tempo, groove, the vocal). Listen across the seam for a tempo hitch or a garbled vocal, both reported. Two or three edits or extensions per song is the limit before the vocal degrades.
 
-**Keeping a melody.** When a take has the hook but the wrong sound (vocal, instruments, mix), Cover it with Variety Off, Max Mode On and Audio Influence high (65–100), with the style box changed only where the sound was wrong. Covers made this way are reported to hold the source melody and structure. Recheck the tempo on the result.
+**Keeping a melody.** When a take has the hook but the wrong sound (vocal, instruments, mix), Cover it with Variety Off, Max Mode On and Audio Influence high (65–100), with the style box changed only where the sound was wrong. Covers made this way are reported to hold the source melody and structure. Check that the hook survived.

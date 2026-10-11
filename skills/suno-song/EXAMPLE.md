@@ -2,7 +2,7 @@
 
 Price Point (an Amazon repricer). Pillars (the product's core benefits): more profit per item sold, visibility into future sales, better decisions about what to list and where. The landing page's every section image was a jungle prop (bushes, clouds, compass, magnifying glass, explorer) under the tagline "THRIVE in the jungle", so the jungle concept won, with a chantable anthem chorus folded in.
 
-This is the hand-off after step 5. The lyrics predate the line-length rules in steps 3 and 4: most verse lines run 12–15 syllables, and the final chorus's escalation line runs 11.
+This is the hand-off after step 7. The lyrics predate the line-length rules in steps 3 and 5: most verse lines run 12–15 syllables, and the final chorus's escalation line runs 11.
 
 ## Pillar-to-line map
 
@@ -13,6 +13,22 @@ This is the hand-off after step 5. The lyrics predate the line-length rules in s
 | Better decisions | Bridge Q&A (channel, country, quantity, removal); post-chorus "I know!" chant |
 
 Escalation line: chorus 1 and 2 "watch the profit climb", final chorus "Up above the canopy the profits climb". The set climbs from mid-canopy to treetops to above the clouds.
+
+## Song map
+
+| Section | What it says | Pillars |
+|---|---|---|
+| Intro | A gang chant previews the hook: "thrive!" | |
+| Verse 1 | Lost in the jungle: rivals undercut by the penny, prices are guesses, stock sinks | (the tension) |
+| Pre-chorus 1 | A guide lights a fire and hands over the compass | |
+| Chorus | Don't just survive, thrive: sell for more, see tomorrow's sales | More profit, future visibility |
+| Verse 2 | Up in the treetops with a magnifying glass: what sells by Friday, next month's money, the buy box won while asleep | Future visibility |
+| Pre-chorus 2 | Reading every sign instead of swinging blind | Better decisions |
+| Bridge | Each fork in the trail (channel, country, quantity, removal), answered | Better decisions |
+| Percussion break | The counts, chanted: a million items priced, fifty signals deep | |
+| Final chorus | Above the canopy, with a key change | More profit |
+
+The chorus is a promise after verse 1, a fact after verse 2, and a view from above the canopy at the end.
 
 ## Hooks
 
@@ -182,4 +198,5 @@ Don't just survive... thrive.
 
 ## Notes
 
+- Exclude Styles' `tempo changes`, the bridge's "same tempo" cue and "steady" in the style boxes come from an earlier version of this skill, which held every song to a fixed tempo for the video. New songs don't need them.
 - Jungle birds appear in both the Style Box and the intro and outro cues, since an atmospheric sound named in only one of them is weak.
