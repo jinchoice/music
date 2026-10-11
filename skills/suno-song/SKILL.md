@@ -5,7 +5,7 @@ description: Suno song inputs (title, style, lyrics, settings) for any subject t
 
 # Suno song
 
-Turn a subject (any theme, plus whatever material the user provides about it) into copy-paste inputs for Suno. The song is the first half of a lyric-synced animated music video, which the painted-music-video skill makes from the finished song: every frame is animated against a fixed beat grid, and every lyric line becomes one 1.5–4 s shot. That is why this skill insists on a steady tempo and on *paintable* lines. [SUNO.md](SUNO.md) holds the Suno craft (style boxes, exclusions, tags, pronunciation, settings, fixing takes) that step 5 applies.
+Turn a subject (any theme, plus whatever material the user provides about it) into copy-paste inputs for Suno. The song is the first half of a lyric-synced animated music video, which the painted-music-video skill makes from the finished song: every frame is animated against a fixed beat grid, and every lyric line becomes one 2–5 s shot (two short lines can share one). That is why this skill insists on a steady tempo and on *paintable* lines. [SUNO.md](SUNO.md) holds the Suno craft (style boxes, exclusions, tags, pronunciation, settings, fixing takes) that step 5 applies.
 
 ## Steps
 
@@ -57,7 +57,7 @@ Done when, for every chorus shown:
 
 Draft the remaining sections around the chosen chorus with plain section tags (`[Verse 1]`, `[Pre-Chorus]`); step 5 adds the cues. [EXAMPLE.md](EXAMPLE.md) sets the quality bar for paintable lines and pillar coverage, and shows a finished hand-off. Its form and sound (chants, call-and-response, drum break, key lift) belong to that song; each new song takes its form from its own direction.
 
-- **Paintable lines.** Each verse, pre-chorus and bridge line is one drawable image or action (boxes sinking in quicksand, a cartwheel that lands in a hug), sung in 1.5–4 s, because each line becomes one shot. Abstract lines ("optimise your growth") have no shot.
+- **Paintable lines.** Each verse, pre-chorus and bridge line is one drawable image or action (boxes sinking in quicksand, a cartwheel that lands in a hug), sung in 2–5 s, because each line becomes one shot; a shorter line shares its shot with the next. Abstract lines ("optimise your growth") have no shot.
 - **Line length.** Aim for 7–9 syllables in verse lines (rap runs longer). Suno locks onto lines that size and rushes longer ones, and they fit inside one shot.
 - **Line endings.** End lines on stressed nouns and verbs, and rhyme them; near rhymes are fine outside the chorus. Endings like "the", "of" and "and" get swallowed.
 - **Length.** 200–350 words; two verses, a chorus and a bridge is the sweet spot. Budget the sections against the target length (default 2:30–3:00), reaching the first chorus by about 0:45: a bar lasts beats-per-bar × 60 / BPM seconds, 2 s for 4/4 at 120 BPM.
