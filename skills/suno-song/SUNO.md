@@ -39,7 +39,7 @@ One list serves all three style boxes unless an alternate needs its own.
 
 Suno sings everything except bracketed tags. Stage directions, production notes and instrument cues in parentheses get sung, so parentheses hold sung echoes and backing vocals only.
 
-**Section tags.** Tag every section; an untagged block is sung as a verse. `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[End]` and `[Fade Out]` are the most reliable, and `[Bridge]`, `[Break]` and `[Outro]` mostly work. `[Post-Chorus]` is less tested, though it held in [EXAMPLE.md](EXAMPLE.md). `[Intro]` is unreliable: write `[Short Instrumental Intro]` or open on a sung line, which also stops a long intro burying the vocal. Name instrumental sections by instrument (`[Drum Break]`, `[Guitar Solo]`), since a bare `[Solo]` tends to noodle.
+**Section tags.** Tag every section; an untagged block is sung as a verse. `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[End]` and `[Fade Out]` are the most reliable, and `[Bridge]`, `[Break]` and `[Outro]` mostly work. `[Post-Chorus]` is less tested, though it held in [EXAMPLE.md](EXAMPLE.md). So is `[Refrain]`, for a verse–refrain song: put the refrain line in its own `[Refrain]` section after each verse so Suno treats it as a repeat, and listen for whether it does. `[Intro]` is unreliable: write `[Short Instrumental Intro]` or open on a sung line, which also stops a long intro burying the vocal. Name instrumental sections by instrument (`[Drum Break]`, `[Guitar Solo]`), since a bare `[Solo]` tends to noodle.
 
 **Performance Cues.** Every section tag carries a delivery cue of a word or two: `[Verse 1 - tense]`, `[Chorus - big drums, gang echoes]`, `[Bridge - stripped back]`. Bare tags are a common cause of flat output, because the cues are how the song's arc reaches Suno. A typical arc runs verse low and tight, pre-chorus rising, chorus open and sustained, bridge a new texture. Keep to three bracketed descriptors per section, cues included; more becomes noise.
 
@@ -70,7 +70,7 @@ All under More Options in Advanced Mode.
 | Max Mode | On | Suno recommends it over ~2:00 for consistency through the song (20 credits instead of 10); without it, mixes are reported to go muffled after ~2:30. |
 | Vocal Gender | From each box's vocal | Steadier than the descriptor alone. |
 | Duration | Auto | Custom hard-cuts at the value and rushes lyrics that don't fit. The section budget sets the length. |
-| Weirdness | Low end of the genre's range | Low Weirdness makes predictable, hooky choices. High brings surprises, and with them tempo shifts and structure drift; above ~60 it is an experimental tool. |
+| Weirdness | Low end of the genre's range (mid-range for a wildcard) | Low Weirdness makes predictable, hooky choices. High brings surprises, and with them tempo shifts and structure drift; above ~60 it is an experimental tool. |
 | Style Influence | The genre's range | The default 50 holds the box loosely; raise it before blaming the prompt. |
 
 Starting ranges, on Suno's 0–100 scale:
@@ -112,7 +112,7 @@ First decide whether it's a prompt problem or a slider problem. The prompt decid
 | A word mispronounced | Respell it. On an otherwise good take, Replace Section with the same lyrics and only that word respelled keeps the rest of the audio. |
 | Cuts off, or rambles at the end | `[Outro]`, then `[End]`. |
 | Repeats or skips sections | Tag every section, and make verse 2 differ from verse 1. |
-| No chorus sticks | Generate more takes of the main box first: Suno writes a new melody each time. If two batches pass without one, rewrite the chorus. |
+| No hook sticks | Generate more takes of the main box first: Suno writes a new melody each time. If two batches pass without one, rewrite the hook. |
 
 **Editing a good take.** When most of a take is right, fix the section, not the song: Replace Section, or Remake in the Song Editor. Make one change per edit, and first write down what must survive it (tempo, groove, the vocal). Listen across the seam for a tempo hitch or a garbled vocal, both reported. Two or three edits or extensions per song is the limit before the vocal degrades.
 
