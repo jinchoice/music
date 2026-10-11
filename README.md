@@ -6,7 +6,7 @@ Claude skills for writing songs and painting their music videos.
 
 ### suno-song
 
-Turns any subject (a product, a family, an event) into copy-paste inputs for Suno: title, three style boxes, exclude styles, a tagged lyrics box and generation settings. The song is written as the first half of a lyric-synced animated music video, so every lyric line is a paintable shot. [painted-music-video](#painted-music-video) makes the video from the finished song.
+Turns any subject (a product, a family, an event) into copy-paste inputs for Suno: title, three style boxes, exclude styles, a tagged lyrics box and generation settings. The song stands on its own, and [painted-music-video](#painted-music-video) can make a music video from the finished take.
 
 Steps: brief and mine the subject, pitch five directions, write the chorus, map the song, write the rest and revise, engineer the Suno inputs, hand off, and optionally check the takes. You choose at three points: the direction, the chorus and the finished lyrics. The chorus comes first and is built around a short, singable hook that belongs to the subject, with a second hook (a vocal hook, chant or riff) beside it. The take check reuses painted-music-video's audio scripts to measure length, tempo and lift and to flag lines that came out unclear. [SUNO.md](skills/suno-song/SUNO.md) holds the Suno craft step 6 applies (style boxes, exclusions, tags, pronunciation, settings, fixing takes), distilled from the suno-engineer skill in [bitwize-music](https://github.com/bitwize-music-studio/claude-ai-music-skills). No other plugin is needed.
 

@@ -57,7 +57,7 @@ Suno reads spelling, not context. Fix in this order: rewrite the line, respell t
 - **Numbers**: write them as words (`twenty-one`, `a million`). Digits are unreliable.
 - **Other languages**: one language per section, the mix named in the Style Box ("bilingual, Spanish verses, English chorus"). Romanise with hyphens where the script is risky (`sa-rang-hae`).
 
-Apply each respelling at every occurrence; the usual miss is a word fixed in a verse and left as it was in the chorus. Keep a respelling table (Suno spelling, display spelling): it goes in the hand-off, and the video's karaoke shows the display spelling.
+Apply each respelling at every occurrence; the usual miss is a word fixed in a verse and left as it was in the chorus. Keep a respelling table (Suno spelling, display spelling): it goes in the hand-off, so anywhere the lyrics are shown (a lyric sheet, captions, a video's karaoke) uses the display spelling.
 
 ## Generation Settings
 

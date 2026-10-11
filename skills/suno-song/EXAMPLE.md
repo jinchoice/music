@@ -12,7 +12,7 @@ This is the hand-off after step 7. The lyrics predate the line-length rules in s
 | Future visibility | Chorus: "I see tomorrow's sales today"; all of Verse 2 |
 | Better decisions | Bridge Q&A (channel, country, quantity, removal); post-chorus "I know!" chant |
 
-Escalation line: chorus 1 and 2 "watch the profit climb", final chorus "Up above the canopy the profits climb". The set climbs from mid-canopy to treetops to above the clouds.
+Escalation line: chorus 1 and 2 "watch the profit climb", final chorus "Up above the canopy the profits climb". The imagery climbs from mid-canopy to treetops to above the clouds.
 
 ## Song map
 

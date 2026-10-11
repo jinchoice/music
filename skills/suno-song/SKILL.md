@@ -1,11 +1,11 @@
 ---
 name: suno-song
-description: Suno song inputs (title, style, lyrics, settings) for any subject the user brings, from a product to a family, shaped for a lyric-synced animated music video. Use when the user wants a song, jingle, or music video written for Suno.
+description: Suno song inputs (title, style, lyrics, settings) for any subject the user brings, from a product to a family. Use when the user wants a song or jingle written for Suno, including one to make a music video from.
 ---
 
 # Suno song
 
-Turn a subject (any theme, plus whatever material the user provides about it) into copy-paste inputs for Suno. The song is the first half of a lyric-synced animated music video, which the painted-music-video skill makes from the finished song: every lyric line becomes one 2–5 s shot (two short lines can share one). That is why this skill insists on *paintable* lines. [SUNO.md](SUNO.md) holds the Suno craft (style boxes, exclusions, tags, pronunciation, settings, fixing takes) that step 6 applies.
+Turn a subject (any theme, plus whatever material the user provides about it) into copy-paste inputs for Suno. The song stands on its own; if the user wants a music video too, the painted-music-video skill makes one from the finished take. [SUNO.md](SUNO.md) holds the Suno craft (style boxes, exclusions, tags, pronunciation, settings, fixing takes) that step 6 applies.
 
 ## Steps
 
@@ -15,6 +15,7 @@ Start with the brief, taken from the user's request:
 
 - **The job**: who the song is for and where it will play (a birthday gift, a product ad, a party, a channel intro), and the feeling it should leave.
 - **The voice**: who sings, and to whom (the dog to her family, the owner to the dog, a brand to its customers).
+- **The arc**: where the story ends: a triumph, a tragedy, a warning or something bittersweet. Take it from the request and the material rather than defaulting to a win; a birthday song ends on top, but a cautionary tale may end with the singer in ruin.
 - **Their ears**: any genre, reference song or artist, vocal or length the user asked for. Suno replaces artist names, so translate a reference into its sound: instruments, vocal, rhythm feel, production era.
 
 Don't stop to ask about what the request leaves open. Choose, and state the choice as an assumption at the top of the pitch.
@@ -52,7 +53,7 @@ Write the chorus before anything else, and write the rest of the song to set it 
    - The hook is the chorus's first or last line (or both), sung at least twice.
    - No chorus line runs longer than 9 syllables, the top of the verse range. Fewer words than the verses leave room for held notes, and the contrast is what makes a chorus land.
    - Rhyme the line ends with perfect rhymes. Parallel lines share a stress pattern, so they fit one melody ("I know the trail, I know the way").
-   - Carry one idea: the core promise, or the heart of the subject (an outcome claim only if the user opted in; see Claims in step 5). The verses cover the other pillars. Chorus lines don't each need their own picture, because every chorus returns to the same set in the video, with a prop that escalates each time.
+   - Carry one idea: the core promise, or the heart of the subject (an outcome claim only if the user opted in; see Claims in step 5). The verses cover the other pillars.
 3. **Add a second hook**, whichever suits the direction: a wordless vocal hook in a post-chorus ("oh-oh-oh", "na-na-na"), a chant or call-and-response, or a signature instrument riff for the style box. Something that repeats without words is easy to remember and easy to sing back.
 
 Present the top two or three choruses, each with its second hook, and recommend one. Stop here until the user picks.
@@ -66,20 +67,20 @@ Done when, for every chorus shown:
 
 Before drafting, write one line per section: what it says, what's new since the section before, and which pillars it carries. [EXAMPLE.md](EXAMPLE.md#song-map) shows the format.
 
-- **Arc.** Verse 1 sets the scene and the tension. Verse 2 moves on in time, view or stakes; twin verses sound machine-written and hand the video the same shots twice. The bridge turns: a new key, view or truth. If it only restates the chorus, cut it.
-- **The chorus gains meaning.** Each verse should change what the same chorus means when it comes round again: a promise after verse 1, a fact after verse 2, a view from the top at the end.
+- **Arc.** Verse 1 sets the scene and the tension. Verse 2 moves on in time, view or stakes; twin verses sound machine-written. The bridge turns: a new key, view or truth. If it only restates the chorus, cut it.
+- **The chorus gains meaning.** Each verse should change what the same chorus means when it comes round again, and the last chorus lands where the brief's arc ends: for a triumph, a promise after verse 1, a fact after verse 2, a view from the top at the end; for a warning, a temptation, then a choice, then a ruin.
 - **Length.** 200–350 words; two verses, a chorus and a bridge is the sweet spot. Budget the sections against the target length (default 2:30–3:00), reaching the first chorus by about 0:45: a bar lasts beats-per-bar × 60 / BPM seconds, 2 s for 4/4 at 120 BPM.
 
-The map is also the story the video tells, so it's shown to the user with the lyrics in step 5.
+The user sees the map with the lyrics in step 5.
 
 Done when every section has its line, every pillar has a section, and verse 2's line says something verse 1's doesn't.
 
 ### 5. Write the rest and revise
 
-Draft the remaining sections from the map, around the chosen chorus, with plain section tags (`[Verse 1]`, `[Pre-Chorus]`); step 6 adds the cues. [EXAMPLE.md](EXAMPLE.md) sets the quality bar for paintable lines and pillar coverage, and shows a finished hand-off. Its form and sound (chants, call-and-response, drum break, key lift) belong to that song; each new song takes its form from its own direction.
+Draft the remaining sections from the map, around the chosen chorus, with plain section tags (`[Verse 1]`, `[Pre-Chorus]`); step 6 adds the cues. [EXAMPLE.md](EXAMPLE.md) sets the quality bar for concrete detail and pillar coverage, and shows a finished hand-off. Its form, sound and upward arc (chants, call-and-response, drum break, key lift, the climb to the top) belong to that song; each new song takes its form from its own direction and its arc from the brief.
 
-- **Paintable lines.** Each verse, pre-chorus and bridge line is one drawable image or action (boxes sinking in quicksand, a cartwheel that lands in a hug), sung in 2–5 s, because each line becomes one shot; a shorter line shares its shot with the next. Abstract lines ("optimise your growth") have no shot.
-- **Line length.** Aim for 7–9 syllables in verse lines (rap runs longer). Suno locks onto lines that size and rushes longer ones, and they fit inside one shot.
+- **Show, then tell.** Verses carry the story in concrete images and actions, from the fact sheet where possible (boxes sinking in quicksand, a cartwheel that lands in a hug). A plain, direct line of feeling ("I'd do it all again") hits hardest once the details have earned it, so put those where they land: the chorus, the turn, the last line of a verse. Jargon ("optimise your growth") says nothing anywhere.
+- **Line length.** Aim for 7–9 syllables in verse lines (rap runs longer). Suno locks onto lines that size and rushes longer ones.
 - **Line endings.** End lines on stressed nouns and verbs, and rhyme them; near rhymes are fine outside the chorus. Endings like "the", "of" and "and" get swallowed.
 - **Hook early.** Open with a fragment of the hook or the second hook, so it's heard within the first 10 s ("Oh-oh-oh-oh, thrive!").
 - **Pre-chorus.** A ramp: shorter lines than the verse, rising, ending on a phrase the chorus answers ("Now I'm climbing, climbing up!").
@@ -96,7 +97,7 @@ Then revise. Read the whole lyric top to bottom, the way a listener will hear it
 - keep one point of view and one tense, unless a change is the point.
 
 Done when:
-- you can name the shot for every verse, pre-chorus and bridge line;
+- every verse carries the story in concrete images or actions, and no line is jargon;
 - every pillar is carried by a specific named line;
 - every line's syllables are counted, and any line outside its range is noted for the hand-off;
 - every chorus after the first matches the first, except a deliberate escalation line;
@@ -109,9 +110,9 @@ Present the song map, then the lyrics, and stop until the user approves or edits
 
 Read [SUNO.md](SUNO.md), then build Suno's fields from the approved lyrics and the chosen direction (genre, tempo, key, lead vocal, lead instrument, mood), meeting these requirements:
 
-- **Clean ending**: the lyrics close `[Outro]` → `[End]` on a cold stop.
+- **Clean ending**: the lyrics close `[Outro]` → `[End]`, or `[Fade Out]` when the direction wants a fade.
 - **Clear diction**: every vocal description asks for it.
-- **Length**: 2:30–3:00 on v6, set by the section budget with Duration on Auto (v6-wild runs anywhere from ~50 s to ~7 min).
+- **Length**: the brief's length (default 2:30–3:00) on v6, set by the section budget with Duration on Auto (v6-wild runs anywhere from ~50 s to ~7 min).
 - **Three style boxes**: the main plus two alternates in different genres over the same lyrics, one with the opposite vocal gender.
 
 Build:
@@ -121,7 +122,7 @@ Build:
 - **Respellings**: each respelled word with its display spelling.
 - **Generation Settings**: v6, Variety Off, Max Mode On, Vocal Gender per box, Duration Auto, Weirdness and Style Influence from the genre ranges.
 
-When a respelling or a cut changes a lyric, recheck that line's shot and pillar.
+When a respelling or a cut changes a lyric, recheck that line's syllables, rhyme and pillar.
 
 Done when:
 - every requirement above appears in the fields;
@@ -139,7 +140,7 @@ Present everything as fenced code blocks, one per Suno field, in this order: Tit
 
 Among the takes that pass, the hook decides: listen through the batch once and keep the take whose chorus you're still humming. When no chorus sticks, generate more takes of the main box before changing the lyrics. When the take with the best hook fails a check, fix that take rather than starting over, since its melody is the hard part to get back ([SUNO.md § Fixing a take](SUNO.md#fixing-a-take)). Offer step 8 to check the takes before choosing.
 
-Ask for two things back: the chosen take's audio (WAV, else MP3) and the lyrics exactly as sung. Those are the two inputs the painted-music-video skill needs, so hand them to it to make the video. If no take passes, diagnose it with [SUNO.md § Fixing a take](SUNO.md#fixing-a-take), change one thing, and send the revised fields.
+If no take passes, diagnose it with [SUNO.md § Fixing a take](SUNO.md#fixing-a-take), change one thing, and send the revised fields. If the user wants a music video of the song, offer the painted-music-video skill; it needs the chosen take's audio (WAV, else MP3) and the lyrics exactly as sung.
 
 ### 8. Check the takes (optional)
 
