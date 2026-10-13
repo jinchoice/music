@@ -100,7 +100,7 @@ Before drafting, write one line per section: what it says, what's new since the 
 
 - **Arc.** The first section sets the scene and the tension, and each later one moves on in time, view or stakes; twin verses sound machine-written. A bridge, where the form has one, turns: a new key, view or truth. If it only restates the hook, cut it.
 - **The hook gains meaning.** Each verse should change what the same hook (a chorus, a refrain line, a title) means when it comes round again, and the last one lands where the brief's arc ends: for a triumph, a promise after verse 1, a fact after verse 2, a view from the top at the end; for a warning, a temptation, then a choice, then a ruin.
-- **Length.** Budget the sections against the target length (default 2:30–3:00), reaching the hook by about 0:45: a bar lasts beats-per-bar × 60 / BPM seconds, 2 s for 4/4 at 120 BPM. For a chorus-led song, two verses, a chorus and a bridge is the sweet spot.
+- **Length.** Budget the sections against the target length (default 2:30–3:00), reaching the hook by about 0:45: a bar lasts beats-per-bar × 60 / BPM seconds, 2 s for 4/4 at 120 BPM. Count any instrumental break that eases a drop in energy (a couple of bars each; see step 6). For a chorus-led song, two verses, a chorus and a bridge is the sweet spot.
 
 The user sees the map with the lyrics in step 5.
 
@@ -149,7 +149,7 @@ Read [SUNO.md](SUNO.md), then build Suno's fields from the approved lyrics and t
 Build:
 - **Style Boxes**: vocal first, then genre, tempo and instruments (naming the riff when the second hook is one), then production and atmosphere, every descriptor adding something new.
 - **Exclude Styles**: at most four bare elements the genres tend to drag in. When nothing needs keeping out, say so instead of filling the field.
-- **Lyrics Box**: the lyrics with a Performance Cue on every section tag, atmosphere cues matching the Style Box, and the respellings applied.
+- **Lyrics Box**: the lyrics with a Performance Cue on every section tag, a way in wherever the energy drops between sections ([SUNO.md § Lyrics Box](SUNO.md#lyrics-box)), atmosphere cues matching the Style Box, and the respellings applied.
 - **Respellings**: each respelled word with its display spelling.
 - **Generation Settings**: v6; then, in screen order, Vocal Gender per box, Duration Auto, Max Mode On, Weirdness and Style Influence for each style box (its genre's range, adjusted for the song's job, a fusion and how full the box is; see [SUNO.md § Generation Settings](SUNO.md#generation-settings)), Variety Off and Personalize Off.
 
@@ -159,6 +159,7 @@ Done when:
 - every requirement above appears in the fields;
 - each style box has been measured with `wc -c` and is ≤ 1000, names no artist, and has no "no …" phrase;
 - every section tag carries a cue, with at most three bracketed descriptors per section;
+- every drop in energy between sections has a way in: a short break, or a cue that describes the move;
 - every style box has its own Weirdness and Style Influence, each with a reason;
 - every homograph, initialism, number and proper noun has been checked, and each respelling is applied at every occurrence.
 
