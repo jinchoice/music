@@ -61,19 +61,20 @@ Apply each respelling at every occurrence; the usual miss is a word fixed in a v
 
 ## Generation Settings
 
-All under More Options in Advanced Mode.
+The model picker sits at the top right of the Create form; pick it first, since switching models resets Variety. The rest are under More Options, below Exclude Styles, in this order.
 
 | Setting | Value | Why |
 |---|---|---|
 | Model | v6 | The flagship, and its length follows the lyrics. v6-wild runs anywhere from ~50 s to ~7 min on the same prompt. v6-mini is the Free plan's model, and Free output is personal use only. |
-| Variety | Off | Above Off, Suno rewrites the Style Box. |
-| Max Mode | On | Suno recommends it over ~2:00 for consistency through the song (20 credits instead of 10); without it, mixes are reported to go muffled after ~2:30. |
 | Vocal Gender | From each box's vocal | Steadier than the descriptor alone. |
 | Duration | Auto | Custom hard-cuts at the value and rushes lyrics that don't fit. The section budget sets the length. |
-| Weirdness | Low end of the genre's range (mid-range for a wildcard) | Low Weirdness makes predictable, hooky choices. High brings surprises, and with them tempo shifts and structure drift; above ~60 it is an experimental tool. |
-| Style Influence | The genre's range | The default 50 holds the box loosely; raise it before blaming the prompt. |
+| Max Mode | On | Suno recommends it over ~2:00 for consistency through the song (20 credits instead of 10); without it, mixes are reported to go muffled after ~2:30. |
+| Weirdness | Low end of the genre's range, then adjusted (below) | Low Weirdness makes predictable, hooky choices. High brings surprises, and with them tempo shifts and structure drift; above ~60 it is an experimental tool. |
+| Style Influence | The genre's range, then adjusted (below) | The default 50 holds the box loosely; raise it before blaming the prompt. |
+| Variety | Off | Above Off, Suno rewrites the Style Box. |
+| Personalize | Off | It only acts when Variety is above Off, and then steers the rewrite toward what Suno has learned of your taste (My Taste). |
 
-Starting ranges, on Suno's 0–100 scale:
+Starting ranges, on Suno's 0–100 scale (the sliders show it as a percentage):
 
 | Genre | Weirdness | Style Influence |
 |---|---|---|
@@ -85,6 +86,14 @@ Starting ranges, on Suno's 0–100 scale:
 | Cinematic, orchestral | 15–40 | 55–75 |
 | Electronic, EDM | 30–55 | 45–65 |
 | Jazz | 40–65 | 40–60 |
+
+**Adjusting the starting point.** The genre's range is where to start, not the whole answer. Move within it, or past it with a reason, for:
+
+- **The song's job.** Low Weirdness gives safe, hooky choices, right for a jingle, a birthday song or anything that has to land on first listen. An atmospheric or exploratory song earns more, and a wildcard direction may sit mid-range.
+- **A fusion.** High Style Influence enforces genre purity, and lower lets Suno blend. A box that fuses two genres wants Style Influence mid-range (40–60), or the tags fight and the take goes rigid.
+- **How full the box is.** A detailed, consistent box can take high Style Influence. A thin or contradictory one comes out stiff at high Style Influence, so fix the box before raising the slider.
+
+Each style box gets its own values, alternates included, since each has its own genre. The hand-off gives the reason for each.
 
 **Genres v6 handles poorly.** v6 is reported weak on grunge, metal, alt-country and synth-pop, and rock or vintage-soul vocals drift to a generic timbre. A sharp vocal texture descriptor helps. v6-wild has more character there, but its length is unpredictable and polishing a wild take by covering it on v6 is unproven, so it suits a sketch, not a finished take.
 

@@ -151,7 +151,7 @@ Build:
 - **Exclude Styles**: at most four bare elements the genres tend to drag in. When nothing needs keeping out, say so instead of filling the field.
 - **Lyrics Box**: the lyrics with a Performance Cue on every section tag, atmosphere cues matching the Style Box, and the respellings applied.
 - **Respellings**: each respelled word with its display spelling.
-- **Generation Settings**: v6, Variety Off, Max Mode On, Vocal Gender per box, Duration Auto, Weirdness and Style Influence from the genre ranges (a wildcard's Weirdness may sit mid-range).
+- **Generation Settings**: v6; then, in screen order, Vocal Gender per box, Duration Auto, Max Mode On, Weirdness and Style Influence for each style box (its genre's range, adjusted for the song's job, a fusion and how full the box is; see [SUNO.md § Generation Settings](SUNO.md#generation-settings)), Variety Off and Personalize Off.
 
 When a respelling or a cut changes a lyric, recheck that line's syllables, rhyme and pillar.
 
@@ -159,11 +159,20 @@ Done when:
 - every requirement above appears in the fields;
 - each style box has been measured with `wc -c` and is ≤ 1000, names no artist, and has no "no …" phrase;
 - every section tag carries a cue, with at most three bracketed descriptors per section;
+- every style box has its own Weirdness and Style Influence, each with a reason;
 - every homograph, initialism, number and proper noun has been checked, and each respelling is applied at every occurrence.
 
 ### 7. Hand off
 
-Present everything as fenced code blocks, one per Suno field, in this order: Title, Style Box (main + 2 alternates), Exclude Styles, Lyrics Box, Generation Settings. Follow with a short pillar-to-line map, the respelling table, the risks (pronunciation, a genre v6 handles poorly) plus any lines outside the syllable ranges, then how to generate: in Advanced Mode, with Variety confirmed Off (it resets when the model changes), each style box two or three times before judging it. For a product song, add that commercial use needs a download on a paid plan. Then how to pick a take. It must pass all of these:
+Present the inputs in the order Suno's Create form takes them, top to bottom, under the screen's own labels, with every text field in its own fenced code block. [EXAMPLE.md](EXAMPLE.md#setup) shows the layout.
+
+1. **Setup**: Advanced Mode, and v6 in the model picker at the top right. Pick the model first, because switching models resets Variety.
+2. **Lyrics**: the Lyrics Box.
+3. **Styles**: the main style box.
+4. **More Options**, in screen order: Exclude Styles (a code block, or "leave it empty"), then a table of Vocal Gender, Duration, Max Mode, Weirdness, Style Influence, Variety and Personalize, with a short reason beside Weirdness and Style Influence.
+5. **Song title**.
+
+After those come the two alternate style boxes, each with its own Vocal Gender, Weirdness and Style Influence, to swap in for later runs. Then a short pillar-to-line map, the respelling table, the risks (pronunciation, a genre v6 handles poorly) plus any lines outside the syllable ranges, and how to generate: each style box two or three times before judging it. For a product song, add that commercial use needs a download on a paid plan. Then how to pick a take. It must pass all of these:
 
 1. **Clear diction**, checked on acronyms and proper nouns, with the words as written.
 2. **Length near the target** (default 2:30–3:00).

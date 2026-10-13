@@ -44,35 +44,11 @@ The chorus opens and closes on a hook. A chant, a call-and-response and a riff w
 
 Chorus lines run 5–9 syllables against 12–15 in the verses, and each pre-chorus ramps into the chorus on "Now I'm climbing, climbing up!".
 
-## Title
+## Setup
 
-```
-Thrive in the Jungle
-```
+Advanced Mode, with v6 picked in the model picker before anything else.
 
-## Style Box (main)
-
-```
-Powerful male lead vocal, slightly gritty, clear diction, gang vocal chants answering. Cinematic jungle pop anthem, steady driving 118 BPM, tribal drums, stomps and claps, bright marimba riff, brass stabs. Jungle bird ambience, triumphant.
-```
-
-## Style Box (alternates)
-
-```
-Warm, confident female lead vocal, clear diction, male gang chants answering. Afro-pop jungle anthem, steady 112 BPM, log drums, talking drum fills, shakers, sparkling kalimba riff, bright synth plucks. Jungle bird ambience, sunny.
-```
-
-```
-Gritty, powerful male lead vocal, clear diction, arena gang vocals answering. Stomp rock anthem, steady driving 120 BPM, heavy stomps and claps, thundering toms, distorted bass riff, overdriven guitar chords. Jungle bird ambience, triumphant.
-```
-
-## Exclude Styles
-
-```
-tempo changes, screaming
-```
-
-## Lyrics Box
+## Lyrics
 
 ```
 [Short Intro - gang chant, jungle birds]
@@ -177,17 +153,51 @@ Don't just survive... thrive.
 [End]
 ```
 
-## Generation Settings
+## Styles
 
-| Setting | Value |
-|---|---|
-| Model | v6 |
-| Variety | Off |
-| Max Mode | On |
-| Vocal Gender | Male (main, stomp rock); Female (Afro-pop) |
-| Duration | Auto |
-| Weirdness | 25 |
-| Style Influence | 70 |
+```
+Powerful male lead vocal, slightly gritty, clear diction, gang vocal chants answering. Cinematic jungle pop anthem, steady driving 118 BPM, tribal drums, stomps and claps, bright marimba riff, brass stabs. Jungle bird ambience, triumphant.
+```
+
+## More Options
+
+Exclude Styles:
+
+```
+tempo changes, screaming
+```
+
+| Setting | Value | Why |
+|---|---|---|
+| Vocal Gender | Male | |
+| Duration | Auto | |
+| Max Mode | On | |
+| Weirdness | 25 | Pop's range (10–30), low for an anthem that has to land on first listen |
+| Style Influence | 70 | Pop's range (60–80); the box is full and holds together |
+| Variety | Off | |
+| Personalize | Off | |
+
+## Song title
+
+```
+Thrive in the Jungle
+```
+
+## Alternate styles
+
+Swap one into Styles for another run and set Vocal Gender, Weirdness and Style Influence to match; everything else stays.
+
+Afro-pop: Vocal Gender **Female**, Weirdness 25, Style Influence 70.
+
+```
+Warm, confident female lead vocal, clear diction, male gang chants answering. Afro-pop jungle anthem, steady 112 BPM, log drums, talking drum fills, shakers, sparkling kalimba riff, bright synth plucks. Jungle bird ambience, sunny.
+```
+
+Stomp rock: Vocal Gender **Male**, Weirdness 25, Style Influence 70.
+
+```
+Gritty, powerful male lead vocal, clear diction, arena gang vocals answering. Stomp rock anthem, steady driving 120 BPM, heavy stomps and claps, thundering toms, distorted bass riff, overdriven guitar chords. Jungle bird ambience, triumphant.
+```
 
 ## Respellings
 
@@ -198,5 +208,6 @@ Don't just survive... thrive.
 
 ## Notes
 
+- The alternates were generated at the main box's Weirdness and Style Influence, before each style box got its own values.
 - Exclude Styles' `tempo changes`, the bridge's "same tempo" cue and "steady" in the style boxes come from an earlier version of this skill, which held every song to a fixed tempo for the video. New songs don't need them.
 - Jungle birds appear in both the Style Box and the intro and outro cues, since an atmospheric sound named in only one of them is weak.
