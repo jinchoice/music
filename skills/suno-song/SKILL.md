@@ -60,7 +60,7 @@ Done when every brief item has an answer or a stated assumption, every pillar po
 
 Open with the brief's assumptions and a few lines summarising the fact sheet, then pitch **5 directions**. When the user named a genre or a reference, all five stay in that sound and differ in concept, angle and feel; otherwise they span 5 distinct genres. For each, give the premise, genre, form, tempo and feel, a title and sample hook line and the second hook it pairs with (a vocal hook, chant or riff) where its form has one, which pillars it carries and how, one strength and one weakness, and any default it breaks and why. Titles and hook lines pass step 3's hook tests. If v6 handles the genre poorly (grunge, metal, alt-country and synth-pop; rock and vintage-soul vocals drift generic), name that as its weakness.
 
-Make one of the five a **wildcard**, labelled as such: an unexpected angle, form or point of view (the squirrel's side of the dog's bird-chasing; the product's story told by the problem it solves). It's free to break a default or two, and its Weirdness may sit mid-range for its genre.
+Make two of the five **wildcards**, labelled as such: unexpected angles, forms or points of view (the squirrel's side of the dog's bird-chasing; the product's story told by the problem it solves). The two differ from each other as much as from the other three, say one by point of view and one by form. Each is free to break a default or two, and its Weirdness may sit mid-range for its genre.
 
 End with a recommendation (combining two is fine). If the material has outcome claims, ask whether they may be sung (see Claims in step 5).
 

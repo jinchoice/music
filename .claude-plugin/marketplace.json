@@ -8,7 +8,7 @@
     {
       "name": "music",
       "description": "Suno song inputs, and the hand-painted, lyric-synced music video made from the finished song",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "source": "./"
     }
   ]
