@@ -1,6 +1,6 @@
 # Suno craft
 
-How to fill each Suno field so the take follows the brief. Distilled from bitwize-music's suno-engineer skill and its Suno reference docs, current for the v6 model family (September 2026). Behaviour marked "reported" comes from community testing, not Suno's documentation.
+How to fill each Suno field so the take follows the brief. Distilled from bitwize-music's suno-engineer skill and its Suno reference docs, current for the v6 model family (September 2026). Behaviour marked "reported" comes from community testing, not Suno's documentation. Examples in backticks illustrate a kind of choice, not a default: pick what fits the song rather than reusing an example's words.
 
 ## Ground rules
 
@@ -12,14 +12,14 @@ How to fill each Suno field so the take follows the brief. Distilled from bitwiz
 
 ## Style Box
 
-Three blocks separated by periods, descriptors within a block separated by commas: `[Vocal]. [Genre, tempo, instruments]. [Production, atmosphere, mood].` The vocal goes first, because Suno weights early words and a vocal described last tends to sit low in the mix. Semicolons, slashes and quotes are reported to parse inconsistently, so leave them out.
+Three blocks separated by periods, descriptors within a block separated by commas: `[Vocal]. [Genre, tempo, instruments]. [Production, mood].` The vocal goes first, because Suno weights early words and a vocal described last tends to sit low in the mix. Semicolons, slashes and quotes are reported to parse inconsistently, so leave them out.
 
-- **Vocal**: gender, range, texture and delivery, plus "clear diction". Use audible qualities (alto, baritone, gritty, raspy, smoky, nasal, belting, chest voice), not intent words. "Powerful" or "defiant" gets the genre's stock voice, and "mature" on its own still comes back young. Two texture words are plenty.
+- **Vocal**: gender, range, texture and delivery, plus "clear diction". Use audible qualities (alto, baritone, gritty, raspy, smoky, nasal, reedy, twangy, deadpan, half-spoken, belting, chest voice), not intent words. "Powerful" or "defiant" gets the genre's stock voice, and "mature" on its own still comes back young. Two texture words are plenty.
 - **Genre**: a primary genre and one or two modifiers, at most three genre terms; bigger fusions come back muddy. An era anchor (`1994 boom bap`, `late-70s disco`) brings instrumentation, mix and vocal style in one phrase.
 - **Tempo and density**: the BPM as a number, plus a density word ("driving", "busy", "sparse"). When the box leaves them open, v6 leans slower, sparser and longer than intended.
-- **Instruments**: two or three by name (`fretless bass, Rhodes, brushed snare`). Left unnamed, Suno falls back on the genre's clichés. When the second hook is a riff, say so (`bright marimba riff`).
-- **Production**: one or two notes on the mix or the room (`dry close-mic vocal, punchy compressed drums, tape saturation`). "Professional" and "high quality" add nothing.
-- **Atmosphere**: an environmental sound (rain, birds, a crowd) goes in the Style Box *and* in a Lyrics Box cue; either alone is weak.
+- **Instruments**: two or three by name (`fretless bass, Rhodes, brushed snare` for late-night jazz-pop; `tabla, sitar drone, sub bass` for an Indian-fusion groove; `accordion, tuba, snare rolls` for a polka). Left unnamed, Suno falls back on the genre's clichés. When the second hook is a riff, say so (`bright marimba riff`).
+- **Production**: one or two notes on the mix or the room (`dry close-mic vocal`, `cavernous plate reverb`, `blown-out cassette lo-fi`, `glossy modern pop polish`). "Professional" and "high quality" add nothing.
+- **Atmosphere**, only when the song's world calls for it; most songs don't need one. Name the sound (rain, birds, a crowd) in the Style Box. A Lyrics Box cue naming it too makes it come through more reliably, but the Lyrics Box is shared by all three style boxes, so add the cue only when every box uses that sound.
 - **Two singers**: say so here ("dual vocalists, male and female, trading verses") as well as in the section tags, or one voice sings everything.
 - **No artist names.** v6 swaps them for its own pick ("Artist name replaced"). Describe the sound instead: instrumentation, vocal character, rhythm feel, production era.
 
@@ -41,7 +41,7 @@ Suno sings everything except bracketed tags. Stage directions, production notes 
 
 **Section tags.** Tag every section; an untagged block is sung as a verse. `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[End]` and `[Fade Out]` are the most reliable, and `[Bridge]`, `[Break]` and `[Outro]` mostly work. `[Post-Chorus]` is less tested, though it held in [EXAMPLE.md](EXAMPLE.md). So is `[Refrain]`, for a verse–refrain song: put the refrain line in its own `[Refrain]` section after each verse so Suno treats it as a repeat, and listen for whether it does. `[Intro]` is unreliable: write `[Short Instrumental Intro]` or open on a sung line, which also stops a long intro burying the vocal. Name instrumental sections by instrument (`[Drum Break]`, `[Guitar Solo]`), since a bare `[Solo]` tends to noodle.
 
-**Performance Cues.** Every section tag carries a delivery cue of a word or two: `[Verse 1 - tense]`, `[Chorus - big drums, gang echoes]`, `[Bridge - easing down]`. Bare tags are a common cause of flat output, because the cues are how the song's arc reaches Suno. A typical arc runs verse low and tight, pre-chorus rising, chorus open and sustained, bridge a new texture. Keep to three bracketed descriptors per section, cues included; more becomes noise.
+**Performance Cues.** Every section tag carries a delivery cue of a word or two: `[Verse 1 - tense]`, `[Chorus - wide open, soaring]`, `[Bridge - easing down]`. Bare tags are a common cause of flat output, because the cues are how the song's arc reaches Suno. A typical arc runs verse low and tight, pre-chorus rising, chorus open and sustained, bridge a new texture. Keep to three bracketed descriptors per section, cues included; more becomes noise.
 
 **Transitions.** Suno switches the arrangement at the tag, so a cue naming where a section ends up (`[Bridge - stripped back]`) right after a full chorus gets a hard cut. Wherever the energy drops between sections, give Suno room. The usual drops are a chorus or post-chorus into verse 2, anything into the bridge, and the way into a quiet last section. Either put a short instrumental tag with no lyrics between them (`[Break]` or `[Interlude]`, a couple of bars that count toward the song's length), or use a cue that describes the move rather than the destination (`[Bridge - easing down]`). This hasn't been tested against a direct cut, so compare a few takes with and without it.
 

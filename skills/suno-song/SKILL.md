@@ -85,7 +85,7 @@ Write the hook before anything else, and write the rest of the song to set it up
    - **No repeats**: the opening section and the recurring line or image that holds the song together.
 
    In every form, rhyme the line ends, with perfect rhymes on the hook's lines, and give parallel lines a shared stress pattern so they fit one melody ("I know the trail, I know the way").
-3. **Add a second hook** where the form has one (chorus-led and rap), whichever suits the direction: a wordless vocal hook in a post-chorus ("oh-oh-oh", "na-na-na"), a chant or call-and-response, or a signature instrument riff for the style box. Something that repeats without words is easy to remember and easy to sing back.
+3. **Add a second hook** where the form has one (chorus-led and rap), of the kind the genre owns: a horn line for soul, a guitar riff for rock, a fiddle line for country, a vocal chop or synth lead for dance music, a wordless "oh-oh" for pop, a chant for a stadium anthem. Backing vocals answering the lead are one option among these, not the default. Something that repeats without words is easy to remember and easy to sing back.
 
 Present the top two or three options, each in its home section with its second hook, and recommend one. Stop here until the user picks.
 
@@ -144,12 +144,12 @@ Read [SUNO.md](SUNO.md), then build Suno's fields from the approved lyrics and t
 - **Clean ending**: the lyrics close `[Outro]` → `[End]`, or `[Fade Out]` when the direction wants a fade.
 - **Clear diction**: every vocal description asks for it.
 - **Length**: the brief's length (default 2:30–3:00) on v6, set by the section budget with Duration on Auto (v6-wild runs anywhere from ~50 s to ~7 min).
-- **Three style boxes**: the main plus two alternates in different genres over the same lyrics, one with the opposite vocal gender.
+- **Three style boxes**: the main plus two alternates in different genres over the same lyrics, one with the opposite vocal gender. Each alternate is its own take on the song, not the main box with the genre swapped: it picks its own tempo feel, texture, backing vocals, ambient sound (or none) and mood. The boxes share only what the shared lyrics force, so keep the Lyrics Box free of anything one version shouldn't have (chants in parentheses are sung in every version).
 
 Build:
-- **Style Boxes**: vocal first, then genre, tempo and instruments (naming the riff when the second hook is one), then production and atmosphere, every descriptor adding something new.
+- **Style Boxes**: vocal first, then genre, tempo and instruments (naming the riff when the second hook is one), then production and mood, every descriptor adding something new. Add an ambient sound only when the song's world calls for it.
 - **Exclude Styles**: at most four bare elements the genres tend to drag in. When nothing needs keeping out, say so instead of filling the field.
-- **Lyrics Box**: the lyrics with a Performance Cue on every section tag, a way in wherever the energy drops between sections ([SUNO.md § Lyrics Box](SUNO.md#lyrics-box)), atmosphere cues matching the Style Box, and the respellings applied.
+- **Lyrics Box**: the lyrics with a Performance Cue on every section tag, a way in wherever the energy drops between sections ([SUNO.md § Lyrics Box](SUNO.md#lyrics-box)), an atmosphere cue only for a sound every style box uses, and the respellings applied.
 - **Respellings**: each respelled word with its display spelling.
 - **Generation Settings**: v6; then, in screen order, Vocal Gender per box, Duration Auto, Max Mode On, Weirdness and Style Influence for each style box (its genre's range, adjusted for the song's job, a fusion and how full the box is; see [SUNO.md § Generation Settings](SUNO.md#generation-settings)), Variety Off and Personalize Off.
 
@@ -161,6 +161,7 @@ Done when:
 - every section tag carries a cue, with at most three bracketed descriptors per section;
 - every drop in energy between sections has a way in: a short break, or a cue that describes the move;
 - every style box has its own Weirdness and Style Influence, each with a reason;
+- the three style boxes have been compared with each other and with [EXAMPLE.md](EXAMPLE.md)'s, and any phrase they share is either forced by the lyrics or rewritten; no box describes a mood arc, which belongs in the cues;
 - every homograph, initialism, number and proper noun has been checked, and each respelling is applied at every occurrence.
 
 ### 7. Hand off

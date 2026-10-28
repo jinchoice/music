@@ -2,6 +2,8 @@
 
 Price Point (an Amazon repricer). Pillars (the product's core benefits): more profit per item sold, visibility into future sales, better decisions about what to list and where. The landing page's every section image was a jungle prop (bushes, clouds, compass, magnifying glass, explorer) under the tagline "THRIVE in the jungle", so the jungle concept won, with a chantable anthem chorus folded in.
 
+Its style boxes show the format, not a sound to reuse: the gang chants, stomps and claps, jungle birds and "triumphant" belong to this song.
+
 This is the hand-off after step 7. The lyrics predate the line-length rules in steps 3 and 5: most verse lines run 12–15 syllables, and the final chorus's escalation line runs 11.
 
 ## Pillar-to-line map
@@ -211,4 +213,4 @@ Gritty, powerful male lead vocal, clear diction, arena gang vocals answering. St
 - The bridge's `[Bridge - stripped back]` cue drops straight from the post-chorus to a bare arrangement. New songs give a bridge like this a way in ([SUNO.md § Lyrics Box](SUNO.md#lyrics-box)).
 - The alternates were generated at the main box's Weirdness and Style Influence, before each style box got its own values.
 - Exclude Styles' `tempo changes`, the bridge's "same tempo" cue and "steady" in the style boxes come from an earlier version of this skill, which held every song to a fixed tempo for the video. New songs don't need them.
-- Jungle birds appear in both the Style Box and the intro and outro cues, since an atmospheric sound named in only one of them is weak.
+- Jungle birds suit this song's world, so they're in every style box and in the intro and outro cues. Most songs don't need an ambient sound, and the alternates here share more than new songs should (see step 6).
