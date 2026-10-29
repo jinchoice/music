@@ -5,7 +5,7 @@ How to fill each Suno field so the take follows the brief. Distilled from bitwiz
 ## Ground rules
 
 - **Advanced Mode only.** Simple Mode treats typed lyrics as a seed and writes extra lines.
-- **Variety Off.** At any setting above Off, Suno rewrites and expands the Style Box before the model sees it, differently for each take. v6 defaults to Normal, and the default comes back whenever the model is switched.
+- **Variety Off by default.** At any setting above Off, Suno rewrites and expands the Style Box before the model sees it, differently for each take. An engineered box needs Off; a wildcard may trade that control for surprise (see Generation Settings). v6 defaults to Normal, and the default comes back whenever the model is switched.
 - **Suno is literal.** Say what you want in plain descriptors. It acts on every word in the Style Box and sings every word in the Lyrics Box.
 - **Negatives go in Exclude Styles.** v6 ignores "no drums" typed into the Style Box.
 - **Limits**: Style Box 1,000 characters, Lyrics Box 5,000, Exclude Styles 1,000.
@@ -30,10 +30,10 @@ Every descriptor should add distinct information. Around ten distinct descriptor
 The field shifts the odds against an element. It is not a hard filter: a Style Box that strongly implies the element still wins, so lean the box away from it too.
 
 - **Bare elements**: `autotune`, not `no autotune`. The field is the negation.
-- **At most four items**, and none when nothing needs keeping out. More dilutes each one.
-- **What to list**: group vocals Suno adds unasked (`choir`, `gang vocals`, `backing vocals`), unless the song wants them; and whatever the genre tends to drag in (`autotune` on boom bap, `drums, electric instruments` on acoustic folk, `EDM drops` on pop).
+- **Zero to four items**, and often none. More dilutes each one, so an item that isn't needed weakens the one that is.
+- **What to list**: only what this box's genre is likely to bring in unasked, what a past take actually added, or what the user has said they dislike. Each item needs a reason. An item the genre wouldn't bring in anyway (rap on a bossa nova, EDM drops on a folk ballad) wastes the field. Typical unasked additions are group vocals on big choruses (`choir`, `gang vocals`), `autotune` on modern pop and hip-hop, and `EDM drops` on dance-pop.
 
-One list serves all three style boxes unless an alternate needs its own.
+Each style box gets its own list, since each genre brings in different things.
 
 ## Lyrics Box
 
@@ -67,14 +67,14 @@ The model picker sits at the top right of the Create form; pick it first, since 
 
 | Setting | Value | Why |
 |---|---|---|
-| Model | v6 | The flagship, and its length follows the lyrics. v6-wild runs anywhere from ~50 s to ~7 min on the same prompt. v6-mini is the Free plan's model, and Free output is personal use only. |
+| Model | v6; v6-wild for a wildcard sketch | v6 is the flagship, and its length follows the lyrics. v6-wild is built for exploration and has more character, but runs anywhere from ~50 s to ~7 min on the same prompt, so it suits a wildcard sketch, not a finished take. v6-mini is the Free plan's model, and Free output is personal use only. |
 | Vocal Gender | From each box's vocal | Steadier than the descriptor alone. |
 | Duration | Auto | Custom hard-cuts at the value and rushes lyrics that don't fit. The section budget sets the length. |
-| Max Mode | On | Suno recommends it over ~2:00 for consistency through the song (20 credits instead of 10); without it, mixes are reported to go muffled after ~2:30. |
+| Max Mode | On over about 2:00; Off for a short jingle | Suno recommends it over ~2:00 for consistency through the song (20 credits instead of 10); without it, mixes are reported to go muffled after ~2:30. A short song only doubles its cost. |
 | Weirdness | A best guess for each box (below) | How far Suno strays from the predictable: low gives familiar, hooky choices, high gives surprises. Above ~60 it is reported to bring tempo shifts and structure drift. |
 | Style Influence | A best guess for each box (below) | How strictly Suno follows the box: high holds the genre tight, low lets Suno blend and fill gaps its own way. |
-| Variety | Off | Above Off, Suno rewrites the Style Box. |
-| Personalize | Off | It only acts when Variety is above Off, and then steers the rewrite toward what Suno has learned of your taste (My Taste). |
+| Variety | Off; Normal for a wildcard that wants Suno's own variations | Off uses the box word for word. Above Off, Suno rewrites and expands it differently for each take: less control, more surprise. |
+| Personalize | Off | It only acts when Variety is above Off, and then steers the rewrite toward what Suno has learned of your taste (My Taste). Leave it Off unless the user wants that. |
 
 **Choosing Weirdness and Style Influence.** There's no starting number. Suno's default of 50 / 50 is a reference point, not a target, and the whole 0–100 scale (shown as a percentage) is open. For each style box, weigh what the song needs:
 

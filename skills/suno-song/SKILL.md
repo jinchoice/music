@@ -16,9 +16,9 @@ The guidance in the steps comes in two kinds.
 - 200–350 words (up to about 500 for rap), since Suno rushes, compresses or skips denser lyrics;
 - verse lines around 7–9 syllables (rap runs longer), since Suno rushes longer ones;
 - numbers written as words, and respellings for anything Suno would mispronounce;
-- the style box, Exclude Styles and settings rules in [SUNO.md](SUNO.md), Variety Off above all.
+- the style box, Exclude Styles and settings rules in [SUNO.md](SUNO.md).
 
-**Craft defaults** are everything else: the form and where the hook sits in it, the hook tests, the chorus line cap, perfect rhymes, the hook in the intro, the first hook by 0:45, the second hook, word-for-word repeats and pillar coverage. They're how a catchy song usually works, and the done-when checks hold each song to them. A direction may break one on purpose: its pitch names the default it breaks and what that buys ("no chorus, so the story never pauses and the last line lands as a twist"), and that default's check is waived for that song.
+**Craft defaults** are everything else: the form and where the hook sits in it, the hook tests, the chorus line cap, perfect rhymes, the hook in the intro, the first hook by 0:45, the second hook, word-for-word repeats, pillar coverage, and Variety Off on the v6 model. They're how a catchy song usually works, and the done-when checks hold each song to them. A direction may break one on purpose: its pitch names the default it breaks and what that buys ("no chorus, so the story never pauses and the last line lands as a twist"), and that default's check is waived for that song.
 
 ## Forms
 
@@ -60,7 +60,7 @@ Done when every brief item has an answer or a stated assumption, every pillar po
 
 Open with the brief's assumptions and a few lines summarising the fact sheet, then pitch **5 directions**. When the user named a genre or a reference, all five stay in that sound and differ in concept, angle and feel; otherwise they span 5 distinct genres. For each, give the premise, genre, form, tempo and feel, a title and sample hook line and the second hook it pairs with (a vocal hook, chant or riff) where its form has one, which pillars it carries and how, one strength and one weakness, and any default it breaks and why. Titles and hook lines pass step 3's hook tests. If v6 handles the genre poorly (grunge, metal, alt-country and synth-pop; rock and vintage-soul vocals drift generic), name that as its weakness.
 
-Make two of the five **wildcards**, labelled as such: unexpected angles, forms or points of view (the squirrel's side of the dog's bird-chasing; the product's story told by the problem it solves). The two differ from each other as much as from the other three, say one by point of view and one by form. Each is free to break a default or two, and usually earns a higher Weirdness than the other three.
+Make two of the five **wildcards**, labelled as such: unexpected angles, forms or points of view (the squirrel's side of the dog's bird-chasing; the product's story told by the problem it solves). The two differ from each other as much as from the other three, say one by point of view and one by form. Each is free to break a default or two, and usually earns a higher Weirdness than the other three. A wildcard may also be offered as a v6-wild sketch or with Variety on Normal, with the cost of each stated ([SUNO.md § Generation Settings](SUNO.md#generation-settings)).
 
 End with a recommendation (combining two is fine). If the material has outcome claims, ask whether they may be sung (see Claims in step 5).
 
@@ -148,10 +148,10 @@ Read [SUNO.md](SUNO.md), then build Suno's fields from the approved lyrics and t
 
 Build:
 - **Style Boxes**: vocal first, then genre, tempo and instruments (naming the riff when the second hook is one), then production and mood, every descriptor adding something new. Add an ambient sound only when the song's world calls for it.
-- **Exclude Styles**: at most four bare elements the genres tend to drag in. When nothing needs keeping out, say so instead of filling the field.
+- **Exclude Styles** for each style box: only what that box's genre is likely to bring in unasked, what a past take actually added, or what the user has said they dislike, each with a reason. It's often empty; say so rather than filling it.
 - **Lyrics Box**: the lyrics with a Performance Cue on every section tag, a way in wherever the energy drops between sections ([SUNO.md § Lyrics Box](SUNO.md#lyrics-box)), an atmosphere cue only for a sound every style box uses, and the respellings applied.
 - **Respellings**: each respelled word with its display spelling.
-- **Generation Settings**: v6; then, in screen order, Vocal Gender per box, Duration Auto, Max Mode On, a best-guess Weirdness and Style Influence for each style box ([SUNO.md § Generation Settings](SUNO.md#generation-settings)), Variety Off and Personalize Off.
+- **Generation Settings**: v6 (v6-wild only for a wildcard sketch); then, in screen order, Vocal Gender per box, Duration Auto, Max Mode by length (On over about 2:00), a best-guess Weirdness and Style Influence for each style box ([SUNO.md § Generation Settings](SUNO.md#generation-settings)), Variety Off (Normal only for a wildcard that trades control for surprise) and Personalize Off.
 
 When a respelling or a cut changes a lyric, recheck that line's syllables, rhyme and pillar.
 
@@ -160,6 +160,7 @@ Done when:
 - each style box has been measured with `wc -c` and is ≤ 1000, names no artist, and has no "no …" phrase;
 - every section tag carries a cue, with at most three bracketed descriptors per section;
 - every drop in energy between sections has a way in: a short break, or a cue that describes the move;
+- every style box has its own Exclude Styles, each item with a reason that fits that box's genre or the user's dislikes;
 - every style box has its own Weirdness and Style Influence, each with a reason that wouldn't fit another song, how sure the guess is, and which way to move;
 - the three style boxes have been compared with each other and with [EXAMPLE.md](EXAMPLE.md)'s, and any phrase they share is either forced by the lyrics or rewritten; no box describes a mood arc, which belongs in the cues;
 - every homograph, initialism, number and proper noun has been checked, and each respelling is applied at every occurrence.
@@ -168,13 +169,13 @@ Done when:
 
 Present the inputs in the order Suno's Create form takes them, top to bottom, under the screen's own labels, with every text field in its own fenced code block. [EXAMPLE.md](EXAMPLE.md#setup) shows the layout.
 
-1. **Setup**: Advanced Mode, and v6 in the model picker at the top right. Pick the model first, because switching models resets Variety.
+1. **Setup**: Advanced Mode, and the model (v6, or v6-wild for a wildcard sketch) in the picker at the top right. Pick the model first, because switching models resets Variety.
 2. **Lyrics**: the Lyrics Box.
 3. **Styles**: the main style box.
-4. **More Options**, in screen order: Exclude Styles (a code block, or "leave it empty"), then a table of Vocal Gender, Duration, Max Mode, Weirdness, Style Influence, Variety and Personalize, with a short reason, how sure the guess is and which way to move beside Weirdness and Style Influence.
+4. **More Options**, in screen order: Exclude Styles (a code block with a reason per item, or "leave it empty"), then a table of Vocal Gender, Duration, Max Mode, Weirdness, Style Influence, Variety and Personalize, with a short reason, how sure the guess is and which way to move beside Weirdness and Style Influence.
 5. **Song title**.
 
-After those come the two alternate style boxes, each with its own Vocal Gender, Weirdness and Style Influence, to swap in for later runs. Then a short pillar-to-line map, the respelling table, the risks (pronunciation, a genre v6 handles poorly) plus any lines outside the syllable ranges, and how to generate: each style box two or three times before judging it. For a product song, add that commercial use needs a download on a paid plan. Then how to pick a take. It must pass all of these:
+After those come the two alternate style boxes, each with its own Exclude Styles, Vocal Gender, Weirdness and Style Influence, to swap in for later runs. Then a short pillar-to-line map, the respelling table, the risks (pronunciation, a genre v6 handles poorly) plus any lines outside the syllable ranges, and how to generate: each style box two or three times before judging it. For a product song, add that commercial use needs a download on a paid plan. Then how to pick a take. It must pass all of these:
 
 1. **Clear diction**, checked on acronyms and proper nouns, with the words as written.
 2. **Length near the target** (default 2:30–3:00).

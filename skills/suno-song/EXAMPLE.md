@@ -211,6 +211,6 @@ Gritty, powerful male lead vocal, clear diction, arena gang vocals answering. St
 ## Notes
 
 - The bridge's `[Bridge - stripped back]` cue drops straight from the post-chorus to a bare arrangement. New songs give a bridge like this a way in ([SUNO.md § Lyrics Box](SUNO.md#lyrics-box)).
-- The song's Weirdness and Style Influence were chosen under an earlier, safer rule (a genre table that kept Weirdness low and Style Influence high), and the alternates ran at the main box's values. The reasons above were rewritten afterwards in the current format.
+- The song's Weirdness and Style Influence were chosen under an earlier, safer rule (a genre table that kept Weirdness low and Style Influence high), and the alternates ran at the main box's values and shared its Exclude Styles. The reasons above were rewritten afterwards in the current format.
 - Exclude Styles' `tempo changes`, the bridge's "same tempo" cue and "steady" in the style boxes come from an earlier version of this skill, which held every song to a fixed tempo for the video. New songs don't need them.
 - Jungle birds suit this song's world, so they're in every style box and in the intro and outro cues. Most songs don't need an ambient sound, and the alternates here share more than new songs should (see step 6).
