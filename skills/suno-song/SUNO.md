@@ -71,31 +71,21 @@ The model picker sits at the top right of the Create form; pick it first, since 
 | Vocal Gender | From each box's vocal | Steadier than the descriptor alone. |
 | Duration | Auto | Custom hard-cuts at the value and rushes lyrics that don't fit. The section budget sets the length. |
 | Max Mode | On | Suno recommends it over ~2:00 for consistency through the song (20 credits instead of 10); without it, mixes are reported to go muffled after ~2:30. |
-| Weirdness | Low end of the genre's range, then adjusted (below) | Low Weirdness makes predictable, hooky choices. High brings surprises, and with them tempo shifts and structure drift; above ~60 it is an experimental tool. |
-| Style Influence | The genre's range, then adjusted (below) | The default 50 holds the box loosely; raise it before blaming the prompt. |
+| Weirdness | A best guess for each box (below) | How far Suno strays from the predictable: low gives familiar, hooky choices, high gives surprises. Above ~60 it is reported to bring tempo shifts and structure drift. |
+| Style Influence | A best guess for each box (below) | How strictly Suno follows the box: high holds the genre tight, low lets Suno blend and fill gaps its own way. |
 | Variety | Off | Above Off, Suno rewrites the Style Box. |
 | Personalize | Off | It only acts when Variety is above Off, and then steers the rewrite toward what Suno has learned of your taste (My Taste). |
 
-Starting ranges, on Suno's 0–100 scale (the sliders show it as a percentage):
+**Choosing Weirdness and Style Influence.** There's no starting number. Suno's default of 50 / 50 is a reference point, not a target, and the whole 0–100 scale (shown as a percentage) is open. For each style box, weigh what the song needs:
 
-| Genre | Weirdness | Style Influence |
+| | Push higher for | Push lower for |
 |---|---|---|
-| Pop, folk, acoustic, story songs | 10–30 | 60–80 |
-| Hip-hop, rap | 20–40 | 50–70 |
-| Rock, punk | 20–45 | 55–75 |
-| Metal | 10–30 | 65–85 |
-| K-pop | 20–40 | 65–85 |
-| Cinematic, orchestral | 15–40 | 55–75 |
-| Electronic, EDM | 30–55 | 45–65 |
-| Jazz | 40–65 | 40–60 |
+| Weirdness | an exploratory or atmospheric brief; a wildcard; a familiar genre at risk of sounding generic; a genre that rewards surprise (jazz, electronic, ambient, art pop); what the user has said they like | a jingle or ad that has to be dependable from its first seconds; a song where a tight, predictable hook matters most (a children's sing-along); a take that came back chaotic |
+| Style Influence | a song that depends on one exact sound or era (1920s ragtime, 90s boom bap); Suno drifting off-genre | a fusion of genres, which Suno has to blend or the tags fight; a high Weirdness that needs room; a brief that wants Suno to surprise |
 
-**Adjusting the starting point.** The genre's range is where to start, not the whole answer. Move within it, or past it with a reason, for:
+The two interact. High Weirdness with solid Style Influence gives surprises that still sound like the genre; high Weirdness with low Style Influence is a true wild card.
 
-- **The song's job.** Low Weirdness gives safe, hooky choices, right for a jingle, a birthday song or anything that has to land on first listen. An atmospheric or exploratory song earns more, and a wildcard direction may sit mid-range.
-- **A fusion.** High Style Influence enforces genre purity, and lower lets Suno blend. A box that fuses two genres wants Style Influence mid-range (40–60), or the tags fight and the take goes rigid.
-- **How full the box is.** A detailed, consistent box can take high Style Influence. A thin or contradictory one comes out stiff at high Style Influence, so fix the box before raising the slider.
-
-Each style box gets its own values, alternates included, since each has its own genre. The hand-off gives the reason for each.
+Give each style box its own values, alternates included, since each has its own genre and job. Each value gets a reason that comes from this song: one that would fit any song ("the box is full and holds together") isn't a reason. Say how sure the guess is, and which way to move if the take comes back too safe or too wild.
 
 **Genres v6 handles poorly.** v6 is reported weak on grunge, metal, alt-country and synth-pop, and rock or vintage-soul vocals drift to a generic timbre. A sharp vocal texture descriptor helps. v6-wild has more character there, but its length is unpredictable and polishing a wild take by covering it on v6 is unproven, so it suits a sketch, not a finished take.
 
@@ -117,6 +107,7 @@ First decide whether it's a prompt problem or a slider problem. The prompt decid
 | Vocal too young | A range (`alto`, `baritone`) and older textures (`smoky`, `weathered`); drop `breathy`, `whispered` and `delicate`; exclude `youthful vocals`. |
 | Wrong genre | A more specific genre term or an era anchor, then raise Style Influence. |
 | Chaotic, structure wanders | Lower Weirdness; keep Style Influence mid to high. |
+| Safe or generic | Raise Weirdness, or lower Style Influence, one at a time. |
 | Stiff, wooden | Lower Style Influence a little, or simplify the box. |
 | Unwanted choir, gang vocals or instrument | Add it to Exclude Styles and lean the box away from it. |
 | Slower, sparser or longer than wanted | State the BPM and density in the box; cut a section. |
