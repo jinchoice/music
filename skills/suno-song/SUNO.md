@@ -21,7 +21,7 @@ Three blocks separated by periods, descriptors within a block separated by comma
 - **Production**: one or two notes on the mix or the room (`dry close-mic vocal`, `cavernous plate reverb`, `blown-out cassette lo-fi`, `glossy modern pop polish`). "Professional" and "high quality" add nothing.
 - **Atmosphere**, only when the song's world calls for it; most songs don't need one. Name the sound (rain, birds, a crowd) in the Style Box. A Lyrics Box cue naming it too makes it come through more reliably, but the Lyrics Box is shared by all three style boxes, so add the cue only when every box uses that sound.
 - **Two singers**: say so here ("dual vocalists, male and female, trading verses") as well as in the section tags, or one voice sings everything.
-- **No artist names.** v6 swaps them for its own pick ("Artist name replaced"). Describe the sound instead: instrumentation, vocal character, rhythm feel, production era.
+- **No artist names.** v6 swaps them for its own pick ("Artist name replaced"). Describe the sound instead: instrumentation, vocal character, rhythm feel, production era. A reference is more than its trademark, so spread its features across the style boxes rather than repeating the one it's best known for.
 
 Every descriptor should add distinct information. Around ten distinct descriptors works well; what dilutes the box is a synonym pile ("intimate, breathy, whispery, soft" is one idea said four ways). Section-by-section changes stay out of the box and go in Performance Cues.
 

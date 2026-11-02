@@ -41,7 +41,7 @@ Start with the brief, taken from the user's request:
 - **The job**: who the song is for and where it will play (a birthday gift, a product ad, a party, a channel intro), and the feeling it should leave.
 - **The voice**: who sings, and to whom (the dog to her family, the owner to the dog, a brand to its customers).
 - **The arc**: where the story ends: a triumph, a tragedy, a warning or something bittersweet. Take it from the request and the material rather than defaulting to a win; a birthday song ends on top, but a cautionary tale may end with the singer in ruin.
-- **Their ears**: any genre, reference song or artist, vocal or length the user asked for. Suno replaces artist names, so translate a reference into its sound: instruments, vocal, rhythm feel, production era.
+- **Their ears**: any genre, reference song or artist, vocal or length the user asked for. Suno replaces artist names, so translate a reference into its sound: instruments, vocal, rhythm feel, production era. Name several of its features, not just its trademark (a singer known for one vocal trick also has a tone, a way with harmonies and runs, and a production style), and vary which features each style box uses, so the trademark doesn't land in every box and every song.
 
 Don't stop to ask about what the request leaves open. Choose, and state the choice as an assumption at the top of the pitch.
 
