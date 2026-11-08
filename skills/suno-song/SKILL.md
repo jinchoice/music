@@ -18,7 +18,7 @@ The guidance in the steps comes in two kinds.
 - numbers written as words, and respellings for anything Suno would mispronounce;
 - the style box, Exclude Styles and settings rules in [SUNO.md](SUNO.md).
 
-**Craft defaults** are everything else: the form and where the hook sits in it, the hook tests, the chorus line cap, perfect rhymes, the hook in the intro, the first hook by 0:45, the second hook, word-for-word repeats, pillar coverage, and Variety Off on the v6 model. They're how a catchy song usually works, and the done-when checks hold each song to them. A direction may break one on purpose: its pitch names the default it breaks and what that buys ("no chorus, so the story never pauses and the last line lands as a twist"), and that default's check is waived for that song.
+**Craft defaults** are everything else: the form and where the hook sits in it, the hook tests, the chorus line cap, perfect rhymes, the hook in the intro, the first hook by 0:45, the second hook, word-for-word repeats, a product song covering each core benefit, and Variety Off on the v6 model. They're how a catchy song usually works, and the done-when checks hold each song to them. A direction may break one on purpose: its pitch names the default it breaks and what that buys ("no chorus, so the story never pauses and the last line lands as a twist"), and that default's check is waived for that song.
 
 ## Forms
 
@@ -47,22 +47,23 @@ Don't stop to ask about what the request leaves open. Choose, and state the choi
 
 Then read all the material the user provides or points to: their own message, notes, docs, a README, a landing page (in a repo, the page template and every section component it renders, plus its meta title and description). Build a fact sheet with:
 
-- **Pillars**: the things the song could carry, each matched to the passage that supports it. For a product these are its core benefits, and the song covers every one, since the client wants each benefit heard. For a personal song (a pet, a family, an event) they're the people, traits and moments, and the song builds on the two or three that make it; a song that lists every trait sounds like an inventory.
+- **Pillars**: the things the song could carry (people, traits, moments, benefits), each matched to the passage that supports it. The fact sheet is a menu, not a checklist: the song carries only what serves its hook and its arc (see Select in step 4). For a product, the core benefits (usually two or three) are the client's brief, and the song covers each one; its other features, FAQ answers and numbers are on the menu like everything else.
 - **Own words**, verbatim: headlines, taglines, mottos, catchphrases, names.
 - **Numbers** the material states, labelled as either counts (items processed, years together) or outcome claims (% more profit).
 - **Imagery**: recurring pictures, metaphors, mascots, hobbies, colour worlds. This is often the strongest song concept, and the easiest to miss (one site's every section image was a jungle prop, which became the winning direction; a family with two tennis players became "Love All").
 - **Tension**, if any: what the song pushes against, such as life without the product or a busy week that scatters a family.
 - For a product, also **objections and risk reducers**: FAQ answers, free trial, setup time, guarantees.
+- **Their asks**: details the user names in their own message ("keep her warm, steady nature", "mention the beach"), listed apart from the rest. Each goes in the song, or the lyrics hand-off says why it's out. Material they only point to (a PDF, a page, notes) is background to choose from.
 
-Done when every brief item has an answer or a stated assumption, every pillar points at a passage, and the imagery has been checked across all the material (section by section for a page).
+Done when every brief item has an answer or a stated assumption, every pillar points at a passage, the user's asks are listed, and the imagery has been checked across all the material (section by section for a page).
 
 ### 2. Pitch directions
 
-Open with the brief's assumptions and a few lines summarising the fact sheet, then pitch **5 directions**. When the user named a genre or a reference, all five stay in that sound and differ in concept, angle and feel; otherwise they span 5 distinct genres. For each, give the premise, genre, form, tempo and feel, a title and sample hook line and the second hook it pairs with (a vocal hook, chant or riff) where its form has one, which pillars it carries and how, one strength and one weakness, and any default it breaks and why. Titles and hook lines pass step 3's hook tests. If v6 handles the genre poorly (grunge, metal, alt-country and synth-pop; rock and vintage-soul vocals drift generic), name that as its weakness.
+Open with the brief's assumptions and a few lines summarising the fact sheet, then pitch **5 directions**. When the user named a genre or a reference, all five stay in that sound and differ in concept, angle and feel; otherwise they span 5 distinct genres. When the user named a voice, each direction's genre is one whose own records use that kind of voice (a breathy, airy soprano sits naturally in R&B-pop, less so over stadium stomps and claps). For each, give the premise, genre, form, tempo and feel, a title and sample hook line and the second hook it pairs with (a vocal hook, chant or riff) where its form has one, which few pillars it builds on and how, one strength and one weakness, and any default it breaks and why. Titles and hook lines pass step 3's hook tests. If v6 handles the genre poorly (grunge, metal, alt-country and synth-pop; rock and vintage-soul vocals drift generic), name that as its weakness.
 
 Make two of the five **wildcards**, labelled as such: unexpected angles, forms or points of view (the squirrel's side of the dog's bird-chasing; the product's story told by the problem it solves). The two differ from each other as much as from the other three, say one by point of view and one by form. Each is free to break a default or two, and usually earns a higher Weirdness than the other three. A wildcard may also be offered as a v6-wild sketch or with Variety on Normal, with the cost of each stated ([SUNO.md § Generation Settings](SUNO.md#generation-settings)).
 
-End with a recommendation (combining two is fine). If the material has outcome claims, ask whether they may be sung (see Claims in step 5).
+End with a recommendation (combining two is fine). When the user named no sound, the five sounds are your guesses, and a wrong one costs a round of new style boxes after the first takes. So say they can pair one direction's concept with another's sound, and ask in the same stop which way the sound should lean: upbeat or serious, fast or mid-tempo. If the material has outcome claims, ask whether they may be sung (see Claims in step 5).
 
 Stop here until the user picks.
 
@@ -79,7 +80,7 @@ Write the hook before anything else, and write the rest of the song to set it up
 
    The best one becomes the title, or sits inside it. A song with no repeats may skip the candidates and write its opening section and recurring line instead.
 2. **Write the hook's home**, the section where it lives in the direction's form:
-   - **Chorus-led**: the chorus. The hook is its first or last line (or both), sung at least twice. No chorus line runs longer than 9 syllables, the top of the verse range: fewer words than the verses leave room for held notes, and the contrast is what makes a chorus land. Carry one idea: the core promise, or the heart of the subject (an outcome claim only if the user opted in; see Claims in step 5). The verses cover the other pillars.
+   - **Chorus-led**: the chorus. The hook is its first or last line (or both), sung at least twice. No chorus line runs longer than 9 syllables, the top of the verse range: fewer words than the verses leave room for held notes, and the contrast is what makes a chorus land. Carry one idea: the core promise, or the heart of the subject (an outcome claim only if the user opted in; see Claims in step 5). The verses carry the story that earns it.
    - **Verse–refrain** or **AABA**: the first verse, ending (or opening) on the hook, so the user hears how it lands.
    - **Rap with hook**: the hook section, two to four lines.
    - **No repeats**: the opening section and the recurring line or image that holds the song together.
@@ -96,25 +97,26 @@ Done when, for every option shown:
 
 ### 4. Map the song
 
-Before drafting, write one line per section: what it says, what's new since the section before, and which pillars it carries. [EXAMPLE.md](EXAMPLE.md#song-map) shows the format.
+Before drafting, write one line per section: what it says, what's new since the section before, and which details from the fact sheet move it. [EXAMPLE.md](EXAMPLE.md#song-map) shows the format.
 
+- **Select.** Keep the details that move the arc or change what the hook means, and leave out the rest, however true or well loved; a song that names everything in the material sounds like a roll call. Several details can share one moment of the story, but parallel details that go nowhere (one cat, one job, one trait per line) are an inventory. Note what you leave out for step 5.
 - **Arc.** The first section sets the scene and the tension, and each later one moves on in time, view or stakes; twin verses sound machine-written. A bridge, where the form has one, turns: a new key, view or truth. If it only restates the hook, cut it.
 - **The hook gains meaning.** Each verse should change what the same hook (a chorus, a refrain line, a title) means when it comes round again, and the last one lands where the brief's arc ends: for a triumph, a promise after verse 1, a fact after verse 2, a view from the top at the end; for a warning, a temptation, then a choice, then a ruin.
-- **Length.** Budget the sections against the target length (default 2:30–3:00), reaching the hook by about 0:45: a bar lasts beats-per-bar × 60 / BPM seconds, 2 s for 4/4 at 120 BPM. Count any instrumental break that eases a drop in energy (a couple of bars each; see step 6). For a chorus-led song, two verses, a chorus and a bridge is the sweet spot.
+- **Length.** Budget the sections against the target length (default 2:30–3:00), reaching the hook by about 0:45: a bar lasts beats-per-bar × 60 / BPM seconds, 2 s for 4/4 at 120 BPM. Count any instrumental break that eases a drop in energy (a couple of bars each; see step 6). For a chorus-led song, two verses, a chorus and a bridge is the sweet spot. Takes often run 20–30% past the budget, as v6 adds instrumental intros, breaks and outros of its own. Don't cut sections to fight that, unless the brief has a hard cap (an ad slot, a jingle); then budget well under it.
 
 The user sees the map with the lyrics in step 5.
 
-Done when every section has its line, every pillar the song carries has a section, and no two verses say the same thing.
+Done when every section has its line, every detail in the map moves the arc or the hook, each of the user's asks is placed or noted as left out, each core benefit of a product has a section, and no two verses say the same thing.
 
 ### 5. Write the rest and revise
 
-Draft the remaining sections from the map, around the chosen hook, with plain section tags (`[Verse 1]`, `[Pre-Chorus]`, `[Refrain]`); step 6 adds the cues. [EXAMPLE.md](EXAMPLE.md) sets the quality bar for concrete detail and pillar coverage, and shows a finished hand-off. Its form, sound and upward arc (chants, call-and-response, drum break, key lift, the climb to the top) belong to that song; each new song takes its form from its own direction and its arc from the brief.
+Draft the remaining sections from the map, around the chosen hook, with plain section tags (`[Verse 1]`, `[Pre-Chorus]`, `[Refrain]`); step 6 adds the cues. [EXAMPLE.md](EXAMPLE.md) sets the quality bar for concrete detail and for selection, and shows a finished hand-off. Its sound, name-ladder post-chorus, changed last-chorus line and rise-through-a-fall arc belong to that song; each new song takes its form from its own direction and its arc from the brief.
 
 - **Show, then tell.** Verses carry the story in concrete images and actions, from the fact sheet where possible (boxes sinking in quicksand, a cartwheel that lands in a hug). A plain, direct line of feeling ("I'd do it all again") hits hardest once the details have earned it, so put those where they land: the chorus, the turn, the last line of a verse. Jargon ("optimise your growth") says nothing anywhere.
 - **Line length.** Aim for 7–9 syllables in verse lines (rap runs longer). Suno locks onto lines that size and rushes longer ones.
 - **Line endings.** End lines on stressed nouns and verbs, and rhyme them; near rhymes are fine away from the hook. Endings like "the", "of" and "and" get swallowed.
-- **Hook early.** Open with a fragment of the hook or the second hook, so it's heard within the first 10 s ("Oh-oh-oh-oh, thrive!").
-- **Pre-chorus**, in a chorus-led song: a ramp. Shorter lines than the verse, rising, ending on a phrase the chorus answers ("Now I'm climbing, climbing up!").
+- **Hook early.** Open with a fragment of the hook or the second hook, so it's heard within the first 10 s ("Oh-oh-oh-oh, thrive!", or a short intro that ends on the hook line).
+- **Pre-chorus**, in a chorus-led song: a ramp. Shorter lines than the verse, rising, ending on a phrase the chorus answers ("But they don't get to choose!" before "I choose what I become").
 - **Repeats** of the hook's section (a chorus, a refrain line) are word for word: a changed line is reported to come back with a new melody. Save any change for one deliberate escalation line in the last one.
 - **Parentheses** hold sung echoes and backing vocals only, since Suno sings everything in the Lyrics Box.
 - **Sayable words.** Write numbers as words, and rewrite around homographs (live, read, lead, wind, close, tear) when a rewrite costs nothing. Step 6 respells whatever stays ([SUNO.md § Pronunciation](SUNO.md#pronunciation)).
@@ -129,13 +131,14 @@ Then revise. Read the whole lyric top to bottom, the way a listener will hear it
 
 Done when:
 - every verse carries the story in concrete images or actions, and no line is jargon;
-- every pillar the song carries has a specific named line;
+- every detail kept moves the arc or changes what the hook means, and no verse brings in a new name or item on every line;
+- each core benefit of a product has a specific named line;
 - every line's syllables are counted, and any line outside its range is noted for the hand-off;
 - every repeat of the hook's section matches the first, except a deliberate escalation line;
 - the hook sits where its form puts it (for chorus-led: previewed in the intro, twice in every chorus, and again in the outro);
 - the revision pass is done.
 
-Present the song map, then the lyrics, and stop until the user approves or edits them, unless they asked for the Suno inputs straight away. Only they know whether the names, details and inside jokes are right, and lyric changes after step 6 mean redoing its respellings and cues.
+Present the song map, then the lyrics, then what you left out on purpose: each item with what adding it would cost (the line it would replace, or the length it adds), so the user can swap one back in. Then stop until the user approves or edits the lyrics, unless they asked for the Suno inputs straight away. Only they know whether the names, details and inside jokes are right, and lyric changes after step 6 mean redoing its respellings and cues.
 
 ### 6. Engineer the Suno inputs
 
@@ -143,7 +146,7 @@ Read [SUNO.md](SUNO.md), then build Suno's fields from the approved lyrics and t
 
 - **Clean ending**: the lyrics close `[Outro]` → `[End]`, or `[Fade Out]` when the direction wants a fade.
 - **Clear diction**: every vocal description asks for it.
-- **Length**: the brief's length (default 2:30–3:00) on v6, set by the section budget with Duration on Auto (v6-wild runs anywhere from ~50 s to ~7 min).
+- **Length**: the brief's length (default 2:30–3:00) on v6, set by the section budget with Duration on Auto, and the hand-off says takes may run 20–30% longer (v6-wild runs anywhere from ~50 s to ~7 min).
 - **Three style boxes**: the main plus two alternates in different genres over the same lyrics, one with the opposite vocal gender. Each alternate is its own take on the song, not the main box with the genre swapped: it picks its own tempo feel, texture, backing vocals, ambient sound (or none) and mood. The boxes share only what the shared lyrics force, so keep the Lyrics Box free of anything one version shouldn't have (chants in parentheses are sung in every version).
 
 Build:
@@ -153,7 +156,7 @@ Build:
 - **Respellings**: each respelled word with its display spelling.
 - **Generation Settings**: v6 (v6-wild only for a wildcard sketch); then, in screen order, Vocal Gender per box, Duration Auto, Max Mode by length (On over about 2:00), a best-guess Weirdness and Style Influence for each style box ([SUNO.md § Generation Settings](SUNO.md#generation-settings)), Variety Off (Normal only for a wildcard that trades control for surprise) and Personalize Off.
 
-When a respelling or a cut changes a lyric, recheck that line's syllables, rhyme and pillar.
+When a respelling or a cut changes a lyric, recheck that line's syllables, rhyme and what it carries.
 
 Done when:
 - every requirement above appears in the fields;
@@ -175,15 +178,19 @@ Present the inputs in the order Suno's Create form takes them, top to bottom, un
 4. **More Options**, in screen order: Exclude Styles (a code block with a reason per item, or "leave it empty"), then a table of Vocal Gender, Duration, Max Mode, Weirdness, Style Influence, Variety and Personalize, with a short reason, how sure the guess is and which way to move beside Weirdness and Style Influence.
 5. **Song title**.
 
-After those come the two alternate style boxes, each with its own Exclude Styles, Vocal Gender, Weirdness and Style Influence, to swap in for later runs. Then a short pillar-to-line map, the respelling table, the risks (pronunciation, a genre v6 handles poorly) plus any lines outside the syllable ranges, and how to generate: each style box two or three times before judging it. For a product song, add that commercial use needs a download on a paid plan. Then how to pick a take. It must pass all of these:
+After those come the two alternate style boxes, each with its own Exclude Styles, Vocal Gender, Weirdness and Style Influence, to swap in for later runs. Then a short map of where each part of the story is sung (for a product, each core benefit), the respelling table, the risks (pronunciation, a genre v6 handles poorly) plus any lines outside the syllable ranges, and how to generate: each style box two or three times before judging it. For a product song, add that commercial use needs a download on a paid plan. Then how to pick a take.
 
-1. **Clear diction**, checked on acronyms and proper nouns, with the words as written.
-2. **Length near the target** (default 2:30–3:00).
-3. **The vocal sits on top of the mix**, and nothing excluded crept in.
+The hook decides: listen through the batch once and keep the take whose hook you're still humming. Rule a take out only when its vocal is buried under the mix or something excluded crept in, since those come from the whole arrangement. When no hook sticks, generate more takes of the main box before changing the lyrics.
 
-Among the takes that pass, the hook decides: listen through the batch once and keep the take whose hook you're still humming. When no hook sticks, generate more takes of the main box before changing the lyrics. When the take with the best hook fails a check, fix that take rather than starting over, since its melody is the hard part to get back ([SUNO.md § Fixing a take](SUNO.md#fixing-a-take)). Offer step 8 to check the takes before choosing.
+Then fix the keeper rather than starting over, since its melody is the hard part to get back ([SUNO.md § Fixing a take](SUNO.md#fixing-a-take)). Listen to it for:
 
-If no take passes, diagnose it with [SUNO.md § Fixing a take](SUNO.md#fixing-a-take), change one thing, and send the revised fields. If the user wants a music video of the song, offer the painted-music-video skill; it needs the chosen take's audio (WAV, else MP3) and the lyrics exactly as sung.
+1. **Diction** on names, acronyms and the hook's words. A garbled word gets Replace Section with that word respelled.
+2. **Every section sung.** v6 sometimes skips one or plays through it; listen where each section should be.
+3. **Length**, which matters only when the brief has a hard cap, such as an ad slot. Running long is usual (see step 4).
+
+The favourite take of [EXAMPLE.md](EXAMPLE.md#how-the-take-came-out) garbled several names and ran almost a minute long, and its hook still made it the keeper. Offer step 8 to check the takes before choosing.
+
+If every take is ruled out, diagnose it with [SUNO.md § Fixing a take](SUNO.md#fixing-a-take), change one thing, and send the revised fields. If the user wants a music video of the song, offer the painted-music-video skill; it needs the chosen take's audio (WAV, else MP3) and the lyrics exactly as sung.
 
 ### 8. Check the takes (optional)
 
@@ -192,7 +199,7 @@ When the user shares takes' audio, before choosing or when a take sounds off and
 1. In a scratch folder, make a Python venv with librosa and faster-whisper (ffmpeg must be installed), and save the Lyrics Box as `lyrics.txt`.
 2. For each take, run `analyze_song.py <take> --out=<scratch>/beats.js --words=<scratch>/<take>-words.json`, then `align_lyrics.py lyrics.txt --words=<scratch>/<take>-words.json --out=<scratch>/lyrics.js --windows-out=<scratch>/windows.json`. Whisper takes a few minutes per take on a CPU.
 3. Report per take:
-   - **Length** against the target.
+   - **Length** against the target, allowing for v6's usual 20–30% overrun.
    - **Tempo** against the style box's BPM. v6 often comes in slower, and the tracker can read half or double the felt tempo.
    - **Lift**: whether the loudness map rises where the song should lift (each chorus, in a chorus-led song).
    - **Intro**: how long before the first sung line.

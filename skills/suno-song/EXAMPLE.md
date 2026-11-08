@@ -1,50 +1,59 @@
-# Worked example: "Thrive in the Jungle"
+# Worked example: "What I Choose to Become"
 
-Price Point (an Amazon repricer). Pillars (the product's core benefits): more profit per item sold, visibility into future sales, better decisions about what to list and where. The landing page's every section image was a jungle prop (bushes, clouds, compass, magnifying glass, explorer) under the tagline "THRIVE in the jungle", so the jungle concept won, with a chantable anthem chorus folded in.
+A character song about Silverstar, the leader of Moonclan in the user's own cat-clan world. The material was two allegiances PDFs: her whole life story, her family, her clan, and her promise to Moonclan, "Your destiny is not what others decide for you, but what you choose to become." The request asked for a showstopper: dramatic, catchy, energetic pop, in a high, breathy, airy soprano, about her life and her rise to leader. After the pitch, the user turned down the Broadway-pop sound for "more Ariana Grande style, not broadway", at 124–130 BPM.
 
-Its style boxes show the format, not a sound to reuse: the gang chants, stomps and claps, jungle birds and "triumphant" belong to this song.
+It's the user's favourite of the songs this skill has made. What made it:
 
-This is the hand-off after step 7. The lyrics predate the line-length rules in steps 3 and 5: most verse lines run 12–15 syllables, and the final chorus's escalation line runs 11.
+- **The sound was pinned down.** The user named the voice, the energy, a reference and a tempo, and all four describe the same kind of singer. The reference became a sound Suno knows (late-2010s R&B pop with orchestral strings), not the artist's name.
+- **The hook is her own words.** Her promise was cut to "I choose what I become", and the story is built to prove it.
+- **It selects.** It follows one arc, a rise through a fall, and leaves out true details that don't move it.
+- **One voice.** Nothing in parentheses and no group vocals, with the user's dislikes in Exclude Styles.
 
-## Pillar-to-line map
+What belongs to this song only: the R&B-pop sound, the whistle-register ad-libs (the reference singer's trademark, which shouldn't land in every song), the pizzicato riff, the name-ladder post-chorus, the changed line in the last chorus, and the exclusions taken from this user's dislikes. Each new song takes its sound, form and second hook from its own direction.
 
-| Pillar | Lines |
+## Selection
+
+The allegiances PDFs hold far more than one song can carry. The song keeps the moments that move her from wanting to lead to leading well, and the details that change what "I choose what I become" means.
+
+| Kept | Why |
 |---|---|
-| More profit | Chorus: "Sell it for more, watch the profit climb" |
-| Future visibility | Chorus: "I see tomorrow's sales today"; all of Verse 2 |
-| Better decisions | Bridge Q&A (channel, country, quantity, removal); post-chorus "I know!" chant |
+| Born "as silver as the moon", swore to be leader | sets up the want |
+| Larkstar mentoring a tom instead of her; Jewelclan battle; named Silverfur | the first "they decide" |
+| The catfish dive and the torn ear, which cost her the deputy spot | the injury the first chorus defies |
+| Framing Foxtail with a Sunclan lie, scolded, hauling the elders' moss | her fall: the second chorus means she chose to be better |
+| Deputy, then leader | the rise |
+| Greencough taking her mate Monkeytail and daughter Lakepaw; naming Moonlake | the bridge's turn: grief she chooses to lead through |
+| Her creed: allies, not necessarily friends | what kind of leader she became |
 
-Escalation line: chorus 1 and 2 "watch the profit climb", final chorus "Up above the canopy the profits climb". The imagery climbs from mid-canopy to treetops to above the clouds.
+Left out on purpose, as the lyrics hand-off told the user: her parents, Fernpelt, Finchtalon and her den in the strangler fig. Each is true, but none moves the arc, and naming them would turn the verses into a roll call.
 
 ## Song map
 
-| Section | What it says | Pillars |
-|---|---|---|
-| Intro | A gang chant previews the hook: "thrive!" | |
-| Verse 1 | Lost in the jungle: rivals undercut by the penny, prices are guesses, stock sinks | (the tension) |
-| Pre-chorus 1 | A guide lights a fire and hands over the compass | |
-| Chorus | Don't just survive, thrive: sell for more, see tomorrow's sales | More profit, future visibility |
-| Verse 2 | Up in the treetops with a magnifying glass: what sells by Friday, next month's money, the buy box won while asleep | Future visibility |
-| Pre-chorus 2 | Reading every sign instead of swinging blind | Better decisions |
-| Bridge | Each fork in the trail (channel, country, quantity, removal), answered | Better decisions |
-| Percussion break | The counts, chanted: a million items priced, fifty signals deep | |
-| Final chorus | Above the canopy, with a key change | More profit |
+About 3:20 at 128 BPM by the section budget, with the first chorus around 0:45. The take ran longer (see [How the take came out](#how-the-take-came-out)).
 
-The chorus is a promise after verse 1, a fact after verse 2, and a view from above the canopy at the end.
+| Section | Time | What it says, and what's new |
+|---|---|---|
+| Intro | 0:00 | The name ladder, stopping at Silverfur, then the hook. "Silverstar" is held back |
+| Verse 1 | 0:08 | Born silver as the moon, vows to lead. Larkstar trains a tom instead; she complains. She survives Jewelclan and becomes Silverfur |
+| Pre-Chorus 1 | 0:30 | Diving for a catfish, a stranger's claws take her ear and her deputy dream. Ramps to "But they don't get to choose!" |
+| Chorus 1 | 0:45 | The hook means **defiance**: the injury doesn't decide who she is |
+| Post-Chorus | 1:04 | The full ladder, now ending on Silverstar |
+| Verse 2 | 1:15 | **Her fall:** Foxtail gets the spot, she spreads the Sunclan lie, Larkstar scolds her like a kit, she hauls the elders' moss, and finds she still has a place |
+| Pre-Chorus 2 | 1:37 | Six moons healing, warrior again, deputy, then leader. Ends on "and this time, I chose!" |
+| Chorus 2 | 1:52 | Same words, but now the hook means **she chose to be better**, not just to rise |
+| Bridge | 2:22 | **The turn:** greencough takes Monkeytail and Lakepaw. A moon later she names Moonlake after her sister, then states her creed as leader |
+| Final Chorus | 2:49 | Her promise to Moonclan. One line changes on purpose: "**You** choose what you become" |
+| Outro | 3:08 | The hook once more, then the ladder ending on a held "Silverstar" |
 
 ## Hooks
 
-The chorus opens and closes on a hook. A chant, a call-and-response and a riff work as second hooks around it.
-
 | Hook | Where it's sung |
 |---|---|
-| "Don't just survive, thrive!", a twist on "survive" | Lines 1 and 7 of every chorus with a "(Thrive!)" echo, and the outro's last line: 7 times |
-| "Thrive in the jungle", the title | Lines 2, 4 and 8 of every chorus, and the end of every post-chorus: 12 times |
-| "Oh-oh-oh" gang chant | The intro, which previews the hook ("Oh-oh-oh-oh, thrive!"), the end of choruses 1 and 2, and the outro |
-| "(What's it worth?) I know!" call-and-response | Every post-chorus |
-| Bright marimba riff | Named in the main style box |
+| "I choose what I become", her promise cut to six syllables | The intro, lines 1 and 5 of every chorus, and the outro: 7 times, with "You choose what you become" as the final chorus's one changed line |
+| The name ladder "Silverkit, Silverpaw, Silverfur… Silverstar", her names in order | The intro stops at Silverfur; every post-chorus and the outro finish it: 4 times, sung by her alone |
+| Plucked pizzicato string riff | Named in the main style box, under the whole song |
 
-Chorus lines run 5–9 syllables against 12–15 in the verses, and each pre-chorus ramps into the chorus on "Now I'm climbing, climbing up!".
+Every chorus line is six syllables with the same da-DUM rhythm, rhymed become/numb and decide/side. "Torn ear, but never numb" is the one concrete detail in the chorus.
 
 ## Setup
 
@@ -53,104 +62,90 @@ Advanced Mode, with v6 picked in the model picker before anything else.
 ## Lyrics
 
 ```
-[Short Intro - gang chant, jungle birds]
-(Oh-oh-oh-oh, oh-oh-oh)
-(Oh-oh-oh-oh, thrive!)
+[Short Intro - airy, intimate]
+Silverkit, Silverpaw,
+Silverfur...
+I choose what I become.
 
-[Verse 1 - tense]
-Lost in the Amazon, the vines are pulling tight
-A thousand sellers circling and they're hungry for a fight
-They cut it by a penny, then a penny, then a dime
-Piranhas in the river eating profit every time
-I'm pricing by the moonlight, I'm pricing on a guess
-My boxes in the warehouse sinking slowly in the mess
+[Verse 1 - breathy, rhythmic]
+Born as silver as the moon,
+swore I'd be the leader soon.
+Larkstar picked a tom to train,
+gave me second, I complained.
+Pinned beneath a Jewel-clan claw,
+kicked him off with all four paws.
+Larkstar named me Silverfur,
+kept my vigil, didn't stir.
 
-[Pre-Chorus - building]
-Then you lit a fire, drew a map in the sand
-Red fifty signs I couldn't understand
-You said, "Put down the guessing, take the compass in your hand"
-Now I'm climbing, climbing up!
+[Pre-Chorus - climbing, urgent]
+Diving for a catfish,
+claws flashed from the stream,
+ripped away my ear
+and my deputy dream.
+But they don't get to choose!
 
-[Chorus - big drums, gang echoes]
-Don't just survive, thrive! (Thrive!)
-Thrive in the jungle!
-Sell it for more, watch the profit climb (Climb!)
-Thrive in the jungle!
-I see tomorrow's sales today
-I know the trail, I know the way
-Don't just survive, thrive! (Thrive!)
-Thrive in the jungle! (Oh-oh-oh)
+[Chorus - full, high and soaring]
+I choose what I become,
+and not what they decide.
+Torn ear, but never numb,
+the moon is on my side.
+I choose what I become.
 
-[Post-Chorus - call and response]
-(What's it worth?) I know!
-(When's it sell?) I know!
-(Where's it go?) I know, I know!
-Thrive in the jungle!
+[Post-Chorus - staccato, solo voice]
+Silverkit, Silverpaw,
+Silverfur... Silverstar.
 
-[Verse 2 - confident]
-I hold the magnifying glass to every box I've got
-This one's gonna sell by Friday, this one's gonna rot
-The fog rolls off the river, now the road ahead is clear
-I can count next month's money from the treetops way up here
-It's pricing while I'm sleeping, swinging in the shade
-Winning me the buy box while the competition fades
+[Verse 2 - settling back into the groove]
+Foxtail took the spot instead,
+never wanted it, he said.
+So I spun a Sunclan lie:
+secret mate across the line.
+Larkstar scolded me like a kit,
+hauled the elders' moss, didn't quit.
+Turns out I still had a place,
+even with mud on my face.
 
-[Pre-Chorus - building]
-No more swinging blindly, vine to vine to vine
-You read the river, read the sky, you read every sign
-Every number lining up like fireflies in line
-Now I'm climbing, climbing up!
+[Pre-Chorus - climbing, urgent]
+Six moons in the den,
+warrior again,
+deputy, then star,
+wearing every scar,
+and this time, I chose!
 
-[Chorus - big drums, gang echoes]
-Don't just survive, thrive! (Thrive!)
-Thrive in the jungle!
-Sell it for more, watch the profit climb (Climb!)
-Thrive in the jungle!
-I see tomorrow's sales today
-I know the trail, I know the way
-Don't just survive, thrive! (Thrive!)
-Thrive in the jungle! (Oh-oh-oh)
+[Chorus - full, high and soaring]
+I choose what I become,
+and not what they decide.
+Torn ear, but never numb,
+the moon is on my side.
+I choose what I become.
 
-[Post-Chorus - call and response]
-(What's it worth?) I know!
-(When's it sell?) I know!
-(Where's it go?) I know, I know!
-Thrive in the jungle!
+[Post-Chorus - staccato, solo voice]
+Silverkit, Silverpaw,
+Silverfur... Silverstar.
 
-[Bridge - stripped back, same tempo]
-Two trails split before me in the morning light
-F.B.A. or ship it myself? (You know which one is right)
-Sell it in the States or up in Canada? (You know)
-How many should I buy? (You know)
-Which ones should I let go? (You know)
-Cut the dead vines loose and let the strong ones grow!
+[Break]
 
-[Percussion Break - gang chant]
-A million items priced! (Hey!)
-Fifty signals deep! (Hey!)
-The jungle never sleeps! (Hey!)
-But now I get to sleep! (Hey!)
+[Bridge - hushed, then rising]
+Green-coff took my Monkeytail,
+took my Lakepaw, small and pale.
+"Why both of them?" I couldn't eat,
+couldn't stand on my own feet.
+One moon later, out I came,
+Moonlake, with her sister's name.
+We don't all have to be friends,
+but an ally never bends.
 
-[Final Chorus - key change, full choir]
-Don't just survive, thrive! (Thrive!)
-Thrive in the jungle!
-Up above the canopy the profits climb (Climb!)
-Thrive in the jungle!
-I see tomorrow's sales today
-I know the trail, I know the way
-Don't just survive, thrive! (Thrive!)
-Thrive in the jungle!
+[Final Chorus - biggest, high ad-libs]
+I choose what I become,
+and not what they decide.
+Torn ear, but never numb,
+the moon is on my side.
+You choose what you become.
 
-[Post-Chorus - call and response]
-(What's it worth?) I know!
-(When's it sell?) I know!
-(Where's it go?) I know, I know!
-(Who's your guide?) Price Point!
-Thrive in the jungle!
-
-[Outro - jungle birds]
-(Oh-oh-oh-oh, oh-oh-oh)
-Don't just survive... thrive.
+[Outro - easing down, long last note]
+I choose what I become.
+Silverkit, Silverpaw,
+Silverfur... Silverstar.
 
 [End]
 ```
@@ -158,7 +153,7 @@ Don't just survive... thrive.
 ## Styles
 
 ```
-Powerful male lead vocal, slightly gritty, clear diction, gang vocal chants answering. Cinematic jungle pop anthem, steady driving 118 BPM, tribal drums, stomps and claps, bright marimba riff, brass stabs. Jungle bird ambience, triumphant.
+Breathy airy female soprano, upfront lead, whistle-register ad-libs, melismatic runs, layered self-harmonies, clear diction. Late-2010s R&B pop with orchestral strings, punchy 128 BPM, crisp trap hi-hats, deep 808 bass, plucked pizzicato string riff. Sleek polished mix, dramatic and moonlit.
 ```
 
 ## More Options
@@ -166,51 +161,88 @@ Powerful male lead vocal, slightly gritty, clear diction, gang vocal chants answ
 Exclude Styles:
 
 ```
-tempo changes, screaming
+gang vocals, choir, broadway, autotune
 ```
+
+- **gang vocals**: the user dislikes them, and the name-ladder post-chorus could turn into a clan chant.
+- **choir**: big string swells under layered harmonies tend to pull one in.
+- **broadway**: the user turned it down, and dramatic strings drift that way.
+- **autotune**: R&B pop often brings hard tuning, which would flatten the breathiness.
 
 | Setting | Value | Why |
 |---|---|---|
-| Vocal Gender | Male | |
+| Vocal Gender | Female | |
 | Duration | Auto | |
-| Max Mode | On | |
-| Weirdness | 25 | Low: a product anthem has to land on first listen, and its chant-led chorus needs a dependable melody. Fairly sure. Too safe? Try 40. |
-| Style Influence | 70 | High: the song rests on one sound, a stomp-and-brass anthem with a marimba riff. Fairly sure. Too stiff? Try 55. |
+| Max Mode | On | The budget runs over 2:00 |
+| Weirdness | 55 | R&B pop is a crowded sound, and a low value gets a stock voice and stock chords. The short, repeated chorus gives the melody enough to hold on to, and this user has liked higher values. A guess. Too safe? Try 65. Post-chorus vanishes or the structure wanders? Try 45. |
+| Style Influence | 65 | The song rests on one sound, and the strings could pull it toward musical theatre. Fairly sure. Drifts to a ballad or Broadway? Try 75. Stiff? Try 55. |
 | Variety | Off | |
 | Personalize | Off | |
 
 ## Song title
 
 ```
-Thrive in the Jungle
+What I Choose to Become
 ```
 
 ## Alternate styles
 
-Swap one into Styles for another run and set Vocal Gender, Weirdness and Style Influence to match; everything else stays.
+Swap one into Styles for another run and set its Vocal Gender, Exclude Styles, Weirdness and Style Influence; everything else stays.
 
-Afro-pop: Vocal Gender **Female**, Weirdness 25, Style Influence 70.
-
-```
-Warm, confident female lead vocal, clear diction, male gang chants answering. Afro-pop jungle anthem, steady 112 BPM, log drums, talking drum fills, shakers, sparkling kalimba riff, bright synth plucks. Jungle bird ambience, sunny.
-```
-
-Stomp rock: Vocal Gender **Male**, Weirdness 25, Style Influence 70.
+Nu-disco: Vocal Gender **Male**, Weirdness 60, Style Influence 55. Exclude `gang vocals, vocoder`: disco loves group "hey!" chants, and nu-disco often brings vocoder leads that blur the words.
 
 ```
-Gritty, powerful male lead vocal, clear diction, arena gang vocals answering. Stomp rock anthem, steady driving 120 BPM, heavy stomps and claps, thundering toms, distorted bass riff, overdriven guitar chords. Jungle bird ambience, triumphant.
+Silky male tenor, smooth falsetto on the high lines, clear diction. Nu-disco funk pop, strutting four-on-the-floor 126 BPM, slap bass, chicken-scratch rhythm guitar, disco string stabs, handclaps. Warm analog mix, glamorous and bold.
 ```
+
+Andean tropical house, a nod to the clans' jungle: Vocal Gender **Female**, Weirdness 50, Style Influence 45. Exclude `EDM drop, gang vocals`: tropical house tends to swap the sung chorus for an instrumental drop.
+
+```
+Bright crystalline female soprano, light vibrato, clear diction. Andean tropical house, bouncy 124 BPM, steady house kick, strummed charango, pan flute hook, cajon and shakers. Rainforest night ambience, lush and euphoric.
+```
+
+## Where each part of the story is sung
+
+| Part of her life | Lines |
+|---|---|
+| The kit's dream | "Born as silver as the moon, / swore I'd be the leader soon" |
+| Passed over | "Larkstar picked a tom to train, / gave me second, I complained" |
+| First battle and warrior name | "Pinned beneath a Jewelclan claw… Larkstar named me Silverfur" |
+| The torn ear | Pre-chorus 1, and "Torn ear, but never numb" in every chorus |
+| The fall and the lesson | All of verse 2 |
+| Rise to leader | "deputy, then star, / wearing every scar" |
+| Grief and Moonlake | Bridge lines 1–6 |
+| Her creed | "We don't all have to be friends, / but an ally never bends" |
+| Her promise | Every chorus, and the final "You choose what you become" |
 
 ## Respellings
 
 | Suno spelling | Display spelling | Why |
 |---|---|---|
-| Red (fifty signs) | Read | Past tense of "read", respelled so Suno doesn't sing "reed". The Verse 2 pre-chorus "read" is present tense and stays as written. |
-| F.B.A. | FBA | Periods make Suno spell it letter by letter. |
+| Jewel-clan | Jewelclan | The hyphen keeps "jewel" whole |
+| Green-coff | Greencough | Inside a made-up word, "-ough" can be read several ways |
 
-## Notes
+## How the take came out
 
-- The bridge's `[Bridge - stripped back]` cue drops straight from the post-chorus to a bare arrangement. New songs give a bridge like this a way in ([SUNO.md § Lyrics Box](SUNO.md#lyrics-box)).
-- The song's Weirdness and Style Influence were chosen under an earlier, safer rule (a genre table that kept Weirdness low and Style Influence high), and the alternates ran at the main box's values and shared its Exclude Styles. The reasons above were rewritten afterwards in the current format.
-- Exclude Styles' `tempo changes`, the bridge's "same tempo" cue and "steady" in the style boxes come from an earlier version of this skill, which held every song to a fixed tempo for the video. New songs don't need them.
-- Jungle birds suit this song's world, so they're in every style box and in the intro and outro cues. Most songs don't need an ambient sound, and the alternates here share more than new songs should (see step 6).
+The user's keeper, measured with step 8's tools:
+
+- **Length** 4:16 against a budget of about 3:20, and **tempo** 129 BPM against 128. Suno added about 15 s of instrumental after the intro's hook line, so the first chorus landed at 1:12, not 0:45.
+- **Lift**: loudest in the final chorus.
+- **Diction**: every hook line came through clean. Names didn't: Larkstar, Jewelclan and "Torn ear, but never numb" were all misheard.
+- **Sections**: Whisper heard no words from 3:00 to 3:32, where the bridge sits, so Suno may have skipped it or sung it too softly to catch. Unconfirmed.
+
+By length and name diction alone, this take would have been passed over. Its hook is why it was kept, which is why step 7 lets the hook decide and treats the rest as fixes.
+
+## For a product song
+
+Product songs run the same steps, with the core benefits as the brief. "Thrive in the Jungle", for Price Point (an Amazon repricer), shows the difference:
+
+- **Pillars** (its core benefits): more profit per item sold, visibility into future sales, and better decisions about what to list and where. The song covers all three, since the client wants each one heard.
+- **Imagery**: every section image on the landing page was a jungle prop (bushes, clouds, compass, magnifying glass, explorer) under the tagline "THRIVE in the jungle", so the jungle became the concept.
+- **The hook gains meaning**: the chorus "Don't just survive, thrive!" is a promise after verse 1, a fact after verse 2, and a view from above the canopy at the end.
+
+| Pillar | Lines |
+|---|---|
+| More profit | Chorus: "Sell it for more, watch the profit climb" |
+| Future visibility | Chorus: "I see tomorrow's sales today"; all of verse 2 |
+| Better decisions | The bridge, which answers each fork in the trail: channel, country, quantity, removal |
